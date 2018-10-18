@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>tangyiming &#8211; wordpress学习</title>
+	<atom:link href="https://tubevideos.github.io/index.php/author/tangyiming/feed/" rel="self" type="application/rss+xml" />
+	<link>https://tubevideos.github.io</link>
+	<description>又一个WordPress站点</description>
+	<lastBuildDate>Mon, 17 Sep 2018 01:31:29 +0000</lastBuildDate>
+	<language>zh-CN</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.8</generator>
+	<item>
+		<title>post-1</title>
+		<link>https://tubevideos.github.io/index.php/2018/09/14/477/</link>
+		<comments>https://tubevideos.github.io/index.php/2018/09/14/477/#respond</comments>
+		<pubDate>Fri, 14 Sep 2018 01:56:03 +0000</pubDate>
+		<dc:creator><![CDATA[tangyiming]]></dc:creator>
+				<category><![CDATA[NewPipeBlog]]></category>
+
+		<guid isPermaLink="false">https://tubevideos.github.io/?p=477</guid>
+		<description><![CDATA[对于多用户博客来说，有时候需要添加一些自定义信息来显示诸如作者的地址、电话等信息，WordPress给我们提供了非常方便的接口来实现这一功能，和文章自定义字段一样，都是通过`meta_data`的功能来实现的。]]></description>
+				<content:encoded><![CDATA[<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p>对于多用户博客来说，有时候需要添加一些自定义信息来显示诸如作者的地址、电话等信息，WordPress给我们提供了非常方便的接口来实现这一功能，和文章自定义字段一样，都是通过`meta_data`的功能来实现的。</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div>
+]]></content:encoded>
+			<wfw:commentRss>https://tubevideos.github.io/index.php/2018/09/14/477/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>fu</title>
+		<link>https://tubevideos.github.io/index.php/2018/09/12/fu/</link>
+		<comments>https://tubevideos.github.io/index.php/2018/09/12/fu/#respond</comments>
+		<pubDate>Wed, 12 Sep 2018 05:51:30 +0000</pubDate>
+		<dc:creator><![CDATA[tangyiming]]></dc:creator>
+				<category><![CDATA[未分类]]></category>
+
+		<guid isPermaLink="false">https://tubevideos.github.io/?p=434</guid>
+		<description><![CDATA[you read the title, you probably guessed it: NewPipe’s website now provides an FAQ section! We’ve been planning this for many months now, and finally Tobias Groza, long time community member and our chief web developer has found some time to implement this in our website. Big thanks, Tobias, you’ve done a great job! &#91;...&#93;]]></description>
+				<content:encoded><![CDATA[<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-top: 60px;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p>you read the title, you probably guessed it: NewPipe’s website now provides an FAQ section!</p>
+<p>We’ve been planning this for many months now, and finally Tobias Groza, long time community member and our chief web developer has found some time to implement this in our website. Big thanks, Tobias, you’ve done a great job!</p>
+<p>Please visit <a href="https://newpipe.schabi.org/FAQ/">https://newpipe.schabi.org/FAQ/</a> to find answers for the most common questions. You’re encouraged to share that lin</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div>
+]]></content:encoded>
+			<wfw:commentRss>https://tubevideos.github.io/index.php/2018/09/12/fu/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>box</title>
+		<link>https://tubevideos.github.io/index.php/2018/09/12/box/</link>
+		<comments>https://tubevideos.github.io/index.php/2018/09/12/box/#respond</comments>
+		<pubDate>Wed, 12 Sep 2018 03:44:29 +0000</pubDate>
+		<dc:creator><![CDATA[tangyiming]]></dc:creator>
+				<category><![CDATA[未分类]]></category>
+
+		<guid isPermaLink="false">https://tubevideos.github.io/?p=431</guid>
+		<description><![CDATA[重点就是如何调用这两个字段的值。看的懂英文的就自己查看下官方的教程 http://www.advancedcustomfields.com/resources/。 下面只简单介绍下 the_field() 和 get_field() 函数。前者是直接输出字段值，后者是获取字段值以供其他函数调用。 比如，我们直接输出刚才倡萌添加的文本字段 test_text，可以使用下面两种方式打印：]]></description>
+				<content:encoded><![CDATA[<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p>重点就是如何调用这两个字段的值。看的懂英文的就自己查看下官方的教程 <a href="http://www.advancedcustomfields.com/resources/" target="_blank" rel="nofollow noopener">http://www.advancedcustomfields.com/resources/</a>。</p>
+<p>下面只简单介绍下 the_field() 和 get_field() 函数。前者是直接输出字段值，后者是获取字段值以供其他函数调用。</p>
+<p>比如，我们直接输出刚才倡萌添加的文本字段 test_text，可以使用下面两种方式打印：</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div>
+]]></content:encoded>
+			<wfw:commentRss>https://tubevideos.github.io/index.php/2018/09/12/box/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>自定义字段</title>
+		<link>https://tubevideos.github.io/index.php/2018/09/12/zb/</link>
+		<pubDate>Wed, 12 Sep 2018 02:22:30 +0000</pubDate>
+		<dc:creator><![CDATA[tangyiming]]></dc:creator>
+				<category><![CDATA[NewPipeBlog]]></category>
+
+		<guid isPermaLink="false">https://tubevideos.github.io/?p=424</guid>
+		<description><![CDATA[Welcome to NewPipe's press kit! About NewPipe NewPipe is an Open Source streaming client for Android. Our goal is to provide a privacy friendly access to existing streaming services like YouTube. The app is designed in such a way that it only transports information necessary for playing the media to external servers and thus &#91;...&#93;]]></description>
+				<content:encoded><![CDATA[<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><h3 class="start">Welcome to NewPipe&#8217;s press kit!</h3>
+<h4>About NewPipe</h4>
+<p>NewPipe is an Open Source streaming client for Android. Our goal is to provide a privacy friendly access to existing streaming services like YouTube. The app is designed in such a way that it only transports information necessary for playing the media to external servers and thus protects the privacy of its users.</p>
+<p>A good user experience is important to the developers of NewPipe. Therefore the app offers many solutions for all possible situations. In this way, the resolution and codecs of the video and audio can be set to save data volume in mobile networks. Likewise, NewPipe&#8217;s video popup and background players make it possible to seamlessly integrate videos and music into daily mobile phone use.</p>
+<p><strong>Quick information:</strong></p>
+<ul>
+<li>Current stable version: <span class="api-github-stable-version">0.14.1</span></li>
+<li>Initial release: 4. September 2015</li>
+<li>Founder: Christian Schabesberger</li>
+<li class="linebreak">Available translations: <span class="api-translations">54</span></li>
+<li>Contributors: <span class="api-contributors">254</span></li>
+<li>App store: <a href="https://f-droid.org/packages/org.schabi.newpipe/" target="_blank" rel="noopener">F-Droid</a></li>
+</ul>
+<p>Because NewPipe and F-Droid guarantee high privacy standards to their users, we cannot give you any information about the number of downloads, active installations or the countries where our users come from, because we do not collect it.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Blog lmage Post</title>
+		<link>https://tubevideos.github.io/index.php/2018/09/06/blog-lmage-post/</link>
+		<comments>https://tubevideos.github.io/index.php/2018/09/06/blog-lmage-post/#respond</comments>
+		<pubDate>Thu, 06 Sep 2018 09:58:21 +0000</pubDate>
+		<dc:creator><![CDATA[tangyiming]]></dc:creator>
+				<category><![CDATA[NewPipeBlog]]></category>
+
+		<guid isPermaLink="false">https://tubevideos.github.io/?p=193</guid>
+		<description><![CDATA[Proin dictum lobortis justo at pretium. Nunc malesuada ante sit amet purus ornare pulvinar. Donec suscipit dignissim ipsum at euismod. Curabitur malesuada lorem sed metus adipiscing in vehicula quam commodo. Sed porttitor elementum elementum. Proin eu ligula eget leo consectetur sodales et non mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt, &#91;...&#93;]]></description>
+				<content:encoded><![CDATA[<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;margin-bottom: 40px;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p><span style="font-size: 16px;">Proin dictum lobortis justo at pretium. Nunc malesuada ante sit amet purus ornare pulvinar. Donec suscipit dignissim ipsum at euismod. Curabitur malesuada lorem sed metus adipiscing in vehicula quam commodo. Sed porttitor elementum elementum. Proin eu ligula eget leo consectetur sodales et non mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
+<p><span style="font-size: 16px;">Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas imperdiet nulla nisl quis mauris. Suspendisse a pharetra urna. Morbi dui lectus, pharetra nec elementum eget, vulputate ut nisi. Aliquam accumsan, nulla sed feugiat vehicula, lacus justo semper libero, quis porttitor turpis odio sit amet ligula. Duis dapibus fermentum orci, nec malesuada libero vehicula ut. Integer sodales, urna eget interdum eleifend, nulla nibh laoreet nisl, quis dignissim mauris dolor eget mi. Donec at mauris enim. Duis nisi tellus, adipiscing a convallis quis, tristique vitae risus. Nullam molestie gravida lobortis. Proin ut nibh quis felis auctor ornare. Cras ultricies, nibh at mollis faucibus, justo eros porttitor mi, quis auctor lectus arcu sit amet nunc. Vivamus gravida vehicula arcu, vitae vulputate augue lacinia faucibus.</span></p>
+<p><span style="font-size: 16px;">Ut porttitor euismod cursus. Mauris suscipit, turpis ut dapibus rhoncus, odio erat egestas orci, in sollicitudin enim erat id est. Sed auctor gravida arcu, nec fringilla orci aliquet ut. Nullam eu pretium purus. Maecenas fermentum posuere sem vel posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ornare convallis lectus a faucibus. Praesent et urna turpis. Fusce tincidunt augue in velit tincidunt sed tempor felis porta. Nunc sodales, metus ut vestibulum ornare, est magna laoreet lectus, ut adipiscing massa odio sed turpis. In nec lorem porttitor urna consequat sagittis. Nullam eget elit ante. Pellentesque justo urna, semper nec faucibus sit amet, aliquam at mi. Maecenas eget diam nec mi dignissim pharetra.</span></p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div>
+]]></content:encoded>
+			<wfw:commentRss>https://tubevideos.github.io/index.php/2018/09/06/blog-lmage-post/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>NewPip Beta now available</title>
+		<link>https://tubevideos.github.io/index.php/2018/09/06/newpip-beta-now-available/</link>
+		<comments>https://tubevideos.github.io/index.php/2018/09/06/newpip-beta-now-available/#respond</comments>
+		<pubDate>Thu, 06 Sep 2018 09:18:18 +0000</pubDate>
+		<dc:creator><![CDATA[tangyiming]]></dc:creator>
+				<category><![CDATA[NewPipeBlog]]></category>
+
+		<guid isPermaLink="false">https://tubevideos.github.io/?p=167</guid>
+		<description><![CDATA[Feb 16, 2018 by TobiGr  By Schabi   With the aim of making NewPipe bug free and achieving a stable 1.0.0 release, we are proud to announce the immediate availability of NewPipe Beta. The beta is provided as a separate app and can be downloaded and installed via F-Droid. It includes not only new features such &#91;...&#93;]]></description>
+				<content:encoded><![CDATA[<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_5  fusion-one-fifth fusion-column-first 1_5"  style='margin-top:0px;margin-bottom:20px;width:20%;width:calc(20% - ( ( 4% ) * 0.2 ) );margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p style="text-align: center;"><span style="font-size: 16px;"><time datetime="2018-02-16T09:00:00-06:00">Feb 16, 2018 </time>by TobiGr</span></p>
+</div><div class="imageframe-align-center"><span class="fusion-imageframe imageframe-none imageframe-1 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/logo-2-150x150.png" width="150" height="150" alt="" title="logo" class="img-responsive wp-image-132" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/logo-2-200x200.png 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/logo-2-400x400.png 400w, https://tubevideos.github.io/wp-content/uploads/2018/09/logo-2.png 425w" sizes="(max-width: 800px) 100vw, 400px" /></span></div><div class="fusion-text"><p style="text-align: center;"><span style="font-size: 16px;">By<span style="color: #cd322e;"> <a style="color: #cd322e;" href="https://github.com/theScrabi">Schabi</a></span></span></p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_4_5  fusion-four-fifth fusion-column-last 4_5"  style='margin-top:0px;margin-bottom:20px;width:80%;width:calc(80% - ( ( 4% ) * 0.8 ) );'>
+					<div class="fusion-column-wrapper" style="padding: 20px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p>With the aim of making NewPipe bug free and achieving a stable 1.0.0 release, we are proud to announce the immediate availability of NewPipe Beta.</p>
+<p>The beta is provided as a separate app and can be downloaded and installed via <span style="color: #cd322e;"><a style="color: #cd322e;" href="https://f-droid.org/packages/org.schabi.newpipe.beta/">F-Droid</a></span>. It includes not only new features such as local playlist and SoundCloud support. Furthermore, it comes with an interface to detect memory leaks.</p>
+<p>From now on, Team NewPipe try to ensure to only introduce new stable features to the normal application.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div>
+]]></content:encoded>
+			<wfw:commentRss>https://tubevideos.github.io/index.php/2018/09/06/newpip-beta-now-available/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>NewPipe talk during FSFE Assembly on 34C3</title>
+		<link>https://tubevideos.github.io/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/</link>
+		<comments>https://tubevideos.github.io/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/#respond</comments>
+		<pubDate>Thu, 06 Sep 2018 09:11:49 +0000</pubDate>
+		<dc:creator><![CDATA[tangyiming]]></dc:creator>
+				<category><![CDATA[NewPipeBlog]]></category>
+
+		<guid isPermaLink="false">https://tubevideos.github.io/?p=161</guid>
+		<description><![CDATA[Dec 17, 2017 by TheAssassin  By Gregor Sedlag   In December, the annual Chaos Communication Congress will take place. This is the 34th time hackers from all around the world meet and attend the largest hacker convention in Europe. Like last year Christian Schabesberger, the initial author and primary maintainer of NewPipe will talk about the deveopment &#91;...&#93;]]></description>
+				<content:encoded><![CDATA[<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_5  fusion-one-fifth fusion-column-first 1_5"  style='margin-top:0px;margin-bottom:20px;width:20%;width:calc(20% - ( ( 4% ) * 0.2 ) );margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p style="text-align: center;"><span style="font-size: 16px;"><time datetime="2017-12-17T22:00:00-06:00">Dec 17, 2017 </time>by TheAssassin</span></p>
+</div><div class="imageframe-align-center"><span class="fusion-imageframe imageframe-none imageframe-2 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/34c3_logo-150x150.png" width="150" height="150" alt="" title="34c3_logo" class="img-responsive wp-image-162" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/34c3_logo-200x200.png 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/34c3_logo.png 245w" sizes="(max-width: 800px) 100vw, 150px" /></span></div><div class="fusion-text"><p style="text-align: center;"><span style="font-size: 16px;">By<span style="color: #cd322e;"> <a style="color: #cd322e;" href="https://engelsystem.de/img/34c3_logo.png">Gregor Sedlag</a></span></span></p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_4_5  fusion-four-fifth fusion-column-last 4_5"  style='margin-top:0px;margin-bottom:20px;width:80%;width:calc(80% - ( ( 4% ) * 0.8 ) );'>
+					<div class="fusion-column-wrapper" style="padding: 40px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p><span style="font-size: 16px;">In December, the annual <span style="color: #cd322e;"><a style="color: #cd322e;" href="https://events.ccc.de/2017/08/09/34c3-presale/">Chaos Communication Congress</a> </span>will take place. This is the 34th time hackers from all around the world meet and attend the largest hacker convention in Europe.</span></p>
+<p><span style="font-size: 16px;">Like last year Christian Schabesberger, the initial author and primary maintainer of NewPipe will talk about the deveopment progress of this year, and the roadmap of the next year. This time, we hope that there will be a camera so that a video of the talk can be shot.</span></p>
+<p><span style="font-size: 16px;">So, if you happen to attend the 34C3 event, please visit the talk during the first conference day, <span style="color: #cd322e;"><a style="color: #cd322e;" href="https://events.ccc.de/congress/2017/wiki/index.php/Session:Newpipe">December 27, 2017, 2 pm, Saal 3</a></span>.</span></p>
+<p><span style="font-size: 16px;">Feel free to leave some ideas for the talk in the comments!</span></p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div>
+]]></content:encoded>
+			<wfw:commentRss>https://tubevideos.github.io/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>NewPipe Talk video from 34C3 online</title>
+		<link>https://tubevideos.github.io/index.php/2018/09/06/newpipe-talk-video-from-34c3-online/</link>
+		<comments>https://tubevideos.github.io/index.php/2018/09/06/newpipe-talk-video-from-34c3-online/#respond</comments>
+		<pubDate>Thu, 06 Sep 2018 09:05:50 +0000</pubDate>
+		<dc:creator><![CDATA[tangyiming]]></dc:creator>
+				<category><![CDATA[NewPipeBlog]]></category>
+
+		<guid isPermaLink="false">https://tubevideos.github.io/?p=151</guid>
+		<description><![CDATA[Feb 11, 2018 by Schabi  By Schabi   As you may know form the previous post, I did a little talk about NewPipe at the last year CCC congress in Leipzig. This time we managed to take a video of it. I wanted to give a little impression about what happened last year, and what is planed for &#91;...&#93;]]></description>
+				<content:encoded><![CDATA[<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_5  fusion-one-fifth fusion-column-first fusion-spacing-no 1_5"  style='margin-top:0px;margin-bottom:20px;width:20%;width:calc(20% - ( ( 0 ) * 0.2 ) );margin-right: 0px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p style="text-align: left;"><span style="font-size: 16px;"><time datetime="2018-02-11T22:00:00-06:00">Feb 11, 2018 </time>by Schabi</span></p>
+</div><div class="imageframe-align-center"><span class="fusion-imageframe imageframe-none imageframe-3 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/34c3-press-e1536224192272.png" width="149" height="112" alt="" title="34c3-press" class="img-responsive wp-image-153"/></span></div><div class="fusion-text"><p style="text-align: center;"><span style="font-size: 16px;">By <span style="color: #cd322e;"><a style="color: #cd322e;" href="https://github.com/theScrabi">Schabi</a></span></span></p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_4_5  fusion-four-fifth fusion-column-last fusion-spacing-no 4_5"  style='margin-top:0px;margin-bottom:20px;width:80%;width:calc(80% - ( ( 0 ) * 0.8 ) );'>
+					<div class="fusion-column-wrapper" style="padding: 30px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p><span style="font-size: 16px;">As you may know form the previous post, I did a little talk about NewPipe at the last year CCC congress in Leipzig. This time we managed to take a<span style="color: #cd322e;"> <a style="color: #cd322e;" href="https://media.assassinate-you.net/video/newpipe-on-34c3">video</a> </span>of it.</span></p>
+<p><span style="font-size: 16px;">I wanted to give a little impression about what happened last year, and what is planed for the future.</span></p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div>
+]]></content:encoded>
+			<wfw:commentRss>https://tubevideos.github.io/index.php/2018/09/06/newpipe-talk-video-from-34c3-online/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>blog</title>
+		<link>https://tubevideos.github.io/index.php/2018/09/06/blog/</link>
+		<comments>https://tubevideos.github.io/index.php/2018/09/06/blog/#respond</comments>
+		<pubDate>Thu, 06 Sep 2018 08:51:01 +0000</pubDate>
+		<dc:creator><![CDATA[tangyiming]]></dc:creator>
+				<category><![CDATA[NewPipeBlog]]></category>
+
+		<guid isPermaLink="false">https://tubevideos.github.io/?p=145</guid>
+		<description><![CDATA[Blog Shortcode This is a very versatile shortcode, allowing you to display posts on any page.  Choose from 6 blog designs along with a plethora of customization options. Create unlimited blog pages each with a unique look and category of posts. Compatible with both single and dual sidebars, the blog shortcode also allows you &#91;...&#93;]]></description>
+				<content:encoded><![CDATA[<p><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: left top;background-repeat: no-repeat;padding-top:20px;padding-right:0px;padding-bottom:0px;padding-left:0px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-blend-mode 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="background-color:#f6f6f6;padding: 40px 40px 40px 40px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><h1 style="margin-top: 0px;">Blog Shortcode</h1>
+<p style="font-size: 17px; line-height: 27px; margin-bottom: 0px; margin-top: -15px; text-align: left;">This is a very versatile shortcode, allowing you to display posts on any page.  Choose from 6 blog designs along with a plethora of customization options. Create unlimited blog pages each with a unique look and category of posts. Compatible with both single and dual sidebars, the blog shortcode also allows you to build magazine style layouts, the possibilities are amazing!</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: left top;background-repeat: no-repeat;padding-top:15px;padding-right:0px;padding-bottom:70px;padding-left:0px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1"  style='margin-top:0px;margin-bottom:0px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-blog-shortcode fusion-blog-shortcode-1 fusion-blog-archive fusion-blog-layout-grid-wrapper fusion-blog-no myGrid"><style type="text/css">.fusion-blog-shortcode-1 .fusion-blog-layout-grid .fusion-post-grid{padding:20px;}.fusion-blog-shortcode-1 .fusion-posts-container{margin-left: -20px !important; margin-right:-20px !important;}</style><div class="fusion-posts-container fusion-posts-container-no fusion-blog-rollover fusion-blog-layout-grid fusion-blog-layout-grid-3 isotope" data-pages="5" data-grid-col-space="40" style="margin: -20px -20px 0;min-height:500px;"><article id="blog-1-post-477" class="fusion-post-grid post-477 post type-post status-publish format-standard hentry category-newpipeblog">
+<div class="fusion-post-wrapper" style="background-color:rgba(255,255,255,0);border:1px solid #ebeaea;border-bottom-width:3px;">
+
+<div class="fusion-post-content-wrapper" style="padding:30px 25px 20px 25px;"><div class="fusion-post-content post-content"><h2 class="blog-shortcode-post-title entry-title"><a href="https://tubevideos.github.io/index.php/2018/09/14/477/">post-1</a></h2><p class="fusion-single-line-meta">由 <span class="vcard"><span class="fn"><a href="https://tubevideos.github.io/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated" style="display:none;">2018-09-14T11:57:33+00:00</span><span>九月 14th, 2018</span><span class="fusion-inline-sep">|</span>分类: <a href="https://tubevideos.github.io/index.php/category/newpipeblog/" rel="category tag">NewPipeBlog</a><span class="fusion-inline-sep">|</span></p><div class="fusion-content-sep sep-double sep-solid" style="border-color:#ebeaea;"></div><div class="fusion-post-content-container"><p> 对于多用户博客来说，有时候需要添加一些自定义信息来显示诸如作者的地址、电话等信息，WordPress给我们提供了非常方便的接口来实现这一功能，和文章自定义字段一样，都是通过`meta_data`的功能来实现的。    </p></div></div><div class="fusion-meta-info"><div class="fusion-alignleft"><a class="fusion-read-more" href="https://tubevideos.github.io/index.php/2018/09/14/477/">阅读更多</a></div><div class="fusion-alignright"><a href="https://tubevideos.github.io/index.php/2018/09/14/477/#respond"><i class="fusion-icon-bubbles"></i>&nbsp;0</a></div></div></div><div class="fusion-clearfix"></div></div>
+</article>
+<article id="blog-1-post-434" class="fusion-post-grid post-434 post type-post status-publish format-standard hentry category-uncategorized">
+<div class="fusion-post-wrapper" style="background-color:rgba(255,255,255,0);border:1px solid #ebeaea;border-bottom-width:3px;">
+
+<div class="fusion-post-content-wrapper" style="padding:30px 25px 20px 25px;"><div class="fusion-post-content post-content"><h2 class="blog-shortcode-post-title entry-title"><a href="https://tubevideos.github.io/index.php/2018/09/12/fu/">fu</a></h2><p class="fusion-single-line-meta">由 <span class="vcard"><span class="fn"><a href="https://tubevideos.github.io/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated" style="display:none;">2018-09-13T11:57:59+00:00</span><span>九月 12th, 2018</span><span class="fusion-inline-sep">|</span>分类: <a href="https://tubevideos.github.io/index.php/category/uncategorized/" rel="category tag">未分类</a><span class="fusion-inline-sep">|</span></p><div class="fusion-content-sep sep-double sep-solid" style="border-color:#ebeaea;"></div><div class="fusion-post-content-container"><p> you read the title, you probably guessed it: NewPipe’s website now provides an FAQ [...]</p></div></div><div class="fusion-meta-info"><div class="fusion-alignleft"><a class="fusion-read-more" href="https://tubevideos.github.io/index.php/2018/09/12/fu/">阅读更多</a></div><div class="fusion-alignright"><a href="https://tubevideos.github.io/index.php/2018/09/12/fu/#respond"><i class="fusion-icon-bubbles"></i>&nbsp;0</a></div></div></div><div class="fusion-clearfix"></div></div>
+</article>
+<article id="blog-1-post-431" class="fusion-post-grid post-431 post type-post status-publish format-standard hentry category-uncategorized">
+<div class="fusion-post-wrapper" style="background-color:rgba(255,255,255,0);border:1px solid #ebeaea;border-bottom-width:3px;">
+
+<div class="fusion-post-content-wrapper" style="padding:30px 25px 20px 25px;"><div class="fusion-post-content post-content"><h2 class="blog-shortcode-post-title entry-title"><a href="https://tubevideos.github.io/index.php/2018/09/12/box/">box</a></h2><p class="fusion-single-line-meta">由 <span class="vcard"><span class="fn"><a href="https://tubevideos.github.io/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated" style="display:none;">2018-09-12T11:44:29+00:00</span><span>九月 12th, 2018</span><span class="fusion-inline-sep">|</span>分类: <a href="https://tubevideos.github.io/index.php/category/uncategorized/" rel="category tag">未分类</a><span class="fusion-inline-sep">|</span></p><div class="fusion-content-sep sep-double sep-solid" style="border-color:#ebeaea;"></div><div class="fusion-post-content-container"><p> 重点就是如何调用这两个字段的值。看的懂英文的就自己查看下官方的教程 http://www.advancedcustomfields.com/resources/。 下面只简单介绍下 the_field() 和 get_field() 函数。前者是直接输出字段值，后者是获取字段值以供其他函数调用。 比如，我们直接输出刚才倡萌添加的文本字段 test_text，可以使用下面两种方式打印：    </p></div></div><div class="fusion-meta-info"><div class="fusion-alignleft"><a class="fusion-read-more" href="https://tubevideos.github.io/index.php/2018/09/12/box/">阅读更多</a></div><div class="fusion-alignright"><a href="https://tubevideos.github.io/index.php/2018/09/12/box/#respond"><i class="fusion-icon-bubbles"></i>&nbsp;0</a></div></div></div><div class="fusion-clearfix"></div></div>
+</article>
+<div class="fusion-clearfix"></div></div></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: left top;background-repeat: no-repeat;padding-top:20px;padding-right:0px;padding-bottom:0px;padding-left:0px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-blend-mode 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="background-color:#f6f6f6;padding: 40px 40px 40px 40px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p style="font-size: 18px; margin-bottom: 12px;"><span style="color: #333333;"><strong>6 Design Layouts To Select</strong></span></p>
+<p style="font-size: 17px; line-height: 27px; margin-bottom: 0px;">Each blog shortcode can use any of our 6 designs and can be used with a single or dual sidebar. Each instance has its own set of options for customization providing ultimate flexibility per use.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: left top;background-repeat: no-repeat;padding-top:35px;padding-right:0px;padding-bottom:70px;padding-left:0px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-first 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%; margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid #f6f6f6;" class="fusion-imageframe imageframe-none imageframe-4 hover-type-none fusion-animated" data-animationType="fadeInDown" data-animationDuration="1.0" data-animationOffset="100%"><a class="fusion-no-lightbox" href="https://avada.theme-fusion.com/blog-grid-full-width/" target="_blank" aria-label="download-features.6a2e9a82" rel="noopener noreferrer"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></a></span></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%; margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid #f6f6f6;" class="fusion-imageframe imageframe-none imageframe-5 hover-type-none fusion-animated" data-animationType="fadeInDown" data-animationDuration="1.0" data-animationOffset="100%"><a class="fusion-no-lightbox" href="https://avada.theme-fusion.com/timeline-full-width/" target="_blank" aria-label="download-features.6a2e9a82" rel="noopener noreferrer"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></a></span></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-last 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid #f6f6f6;" class="fusion-imageframe imageframe-none imageframe-6 hover-type-none fusion-animated" data-animationType="fadeInDown" data-animationDuration="1.0" data-animationOffset="100%"><a class="fusion-no-lightbox" href="https://avada.theme-fusion.com/large-image-right-sidebar/" target="_blank" aria-label="download-features.6a2e9a82" rel="noopener noreferrer"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></a></span></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1"  style='margin-top:0px;margin-bottom:0px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:17px;margin-bottom:0px;"></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-first 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%; margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid #f6f6f6;" class="fusion-imageframe imageframe-none imageframe-7 hover-type-none fusion-animated" data-animationType="fadeInDown" data-animationDuration="1.0" data-animationOffset="100%"><a class="fusion-no-lightbox" href="https://avada.theme-fusion.com/large-alternate-right-sidebar/" target="_blank" aria-label="download-features.6a2e9a82" rel="noopener noreferrer"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></a></span></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%; margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid #f6f6f6;" class="fusion-imageframe imageframe-none imageframe-8 hover-type-none fusion-animated" data-animationType="fadeInDown" data-animationDuration="1.0" data-animationOffset="100%"><a class="fusion-no-lightbox" href="https://avada.theme-fusion.com/medium-image-right-sidebar/" target="_blank" aria-label="download-features.6a2e9a82" rel="noopener noreferrer"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></a></span></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-last 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid #f6f6f6;" class="fusion-imageframe imageframe-none imageframe-9 hover-type-none fusion-animated" data-animationType="fadeInDown" data-animationDuration="1.0" data-animationOffset="100%"><a class="fusion-no-lightbox" href="https://avada.theme-fusion.com/medium-alternate-right-sidebar/" target="_blank" aria-label="download-features.6a2e9a82" rel="noopener noreferrer"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></a></span></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: left top;background-repeat: no-repeat;padding-top:20px;padding-right:0px;padding-bottom:0px;padding-left:0px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-blend-mode 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="background-color:#f6f6f6;padding: 40px 40px 40px 40px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p style="font-size: 18px; margin-bottom: 12px;"><span style="color: #333333;"><strong>Create Unlimited Blog Pages</strong></span></p>
+<p style="font-size: 17px; line-height: 27px; margin-bottom: 0px;">The Blog shortcode allows you to use it on as many pages as you wish. Each instance can have a unique set of categories that display giving you superior flexibility for various types of layout, even magazine style.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: left top;background-repeat: no-repeat;padding-top:25px;padding-right:0px;padding-bottom:85px;padding-left:0px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1"  style='margin-top:0px;margin-bottom:0px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span class="fusion-imageframe imageframe-none imageframe-10 hover-type-none fusion-animated" data-animationType="fadeInDown" data-animationDuration="1.0" data-animationOffset="100%"><a class="fusion-no-lightbox" href="https://avada.theme-fusion.com/home-magazine-style-1/" target="_blank" aria-label="faq-3408300_1280" rel="noopener noreferrer"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/faq-3408300_1280-1-e1536223719536.jpg" width="1118" height="824" alt="" class="img-responsive wp-image-149" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/faq-3408300_1280-1-e1536223719536-200x147.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/faq-3408300_1280-1-e1536223719536-400x295.jpg 400w, https://tubevideos.github.io/wp-content/uploads/2018/09/faq-3408300_1280-1-e1536223719536-600x442.jpg 600w, https://tubevideos.github.io/wp-content/uploads/2018/09/faq-3408300_1280-1-e1536223719536-800x590.jpg 800w, https://tubevideos.github.io/wp-content/uploads/2018/09/faq-3408300_1280-1-e1536223719536.jpg 1118w" sizes="(max-width: 800px) 100vw, 1118px" /></a></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-single sep-solid" style="border-color:#f2f2f2;border-top-width:1px;margin-left: auto;margin-right: auto;margin-top:0px;margin-bottom:0px;"></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: left top;background-repeat: no-repeat;padding-top:20px;padding-right:0px;padding-bottom:0px;padding-left:0px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-blend-mode 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="background-color:#f6f6f6;padding: 40px 40px 40px 40px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p style="font-size: 18px; margin-bottom: 12px;"><span style="color: #333333;"><strong>Loaded With Customization Options</strong></span></p>
+<p style="font-size: 17px; line-height: 27px; margin-bottom: 0px;">Each blog instance you use has a massive set of options for customization. These options allow you to choose how each set of posts display, making it unique to your site.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: left top;background-repeat: no-repeat;padding-top:35px;padding-right:0px;padding-bottom:70px;padding-left:0px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-first 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%; margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid #f6f6f6;" class="fusion-imageframe imageframe-none imageframe-11 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" title="download-features.6a2e9a82" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:5px;margin-bottom:0px;"></div><div class="fusion-text"><h3 style="text-align: center;">Number Of Posts</h3>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:-10px;"></div><div class="fusion-text"><p style="text-align: center;">This option allows you to control the number of posts that will display with the blog shortcode.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%; margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid rgba(000,000,000,.05);" class="fusion-imageframe imageframe-none imageframe-12 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" title="download-features.6a2e9a82" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:5px;margin-bottom:0px;"></div><div class="fusion-text"><h3 style="text-align: center;">Categories</h3>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:-10px;"></div><div class="fusion-text"><p style="text-align: center;">This option allows you to choose which category or categroies will display with the blog shortcode.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-last 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid rgba(000,000,000,.05);" class="fusion-imageframe imageframe-none imageframe-13 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" title="download-features.6a2e9a82" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:5px;margin-bottom:0px;"></div><div class="fusion-text"><h3 style="text-align: center;">Exclude Categories</h3>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:-10px;"></div><div class="fusion-text"><p style="text-align: center;">This option allows you to easily exclude one or more categories. Perfect for those who have many.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1"  style='margin-top:0px;margin-bottom:0px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-sep-clear"></div><div class="fusion-separator sep-none" style="margin-left: auto;margin-right: auto;margin-top:0px;margin-bottom:20px;width:100%;max-width:400px;"></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-first 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%; margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid rgba(000,000,000,.05);" class="fusion-imageframe imageframe-none imageframe-14 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" title="download-features.6a2e9a82" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:5px;margin-bottom:0px;"></div><div class="fusion-text"><h3 style="text-align: center;">Post Excerpt</h3>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:-10px;"></div><div class="fusion-text"><p style="text-align: center;">This option allows you to show a post excerpt or the full content of each blog post.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%; margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid rgba(000,000,000,.05);" class="fusion-imageframe imageframe-none imageframe-15 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" title="download-features.6a2e9a82" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:5px;margin-bottom:0px;"></div><div class="fusion-text"><h3 style="text-align: center;">Post Thumbnail</h3>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:-10px;"></div><div class="fusion-text"><p style="text-align: center;">This option allows you to show or hide the blog post image that dispalys on each of your posts.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-last 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid rgba(000,000,000,.05);" class="fusion-imageframe imageframe-none imageframe-16 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" title="download-features.6a2e9a82" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:5px;margin-bottom:0px;"></div><div class="fusion-text"><h3 style="text-align: center;">Type of Scroll</h3>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:-10px;"></div><div class="fusion-text"><p style="text-align: center;">This option allows you to choose infinite scroll, or classic numerical pagination for your posts.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1"  style='margin-top:0px;margin-bottom:0px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-sep-clear"></div><div class="fusion-separator sep-none" style="margin-left: auto;margin-right: auto;margin-top:0px;margin-bottom:20px;width:100%;max-width:400px;"></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-first 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%; margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid rgba(000,000,000,.05);" class="fusion-imageframe imageframe-none imageframe-17 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" title="download-features.6a2e9a82" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:5px;margin-bottom:0px;"></div><div class="fusion-text"><h3 style="text-align: center;">Pagination Type</h3>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:-10px;"></div><div class="fusion-text"><p style="text-align: center;">This option allows you to choose if pagination will display for navigating through posts.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%; margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid rgba(000,000,000,.05);" class="fusion-imageframe imageframe-none imageframe-18 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" title="download-features.6a2e9a82" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:5px;margin-bottom:0px;"></div><div class="fusion-text"><h3 style="text-align: center;">Post Title</h3>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:-10px;"></div><div class="fusion-text"><p style="text-align: center;">This option allows you to show or hide the blog post title that dispalys on each of your posts.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_3  fusion-one-third fusion-column-last 1_3"  style='margin-top:0px;margin-bottom:20px;width:30.6666%'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid rgba(000,000,000,.05);" class="fusion-imageframe imageframe-none imageframe-19 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" title="download-features.6a2e9a82" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:5px;margin-bottom:0px;"></div><div class="fusion-text"><h3 style="text-align: center;">Strip HTML</h3>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:-10px;"></div><div class="fusion-text"><p style="text-align: center;">This option allows you to strip HTML from the post, which is perfect for when using excerpts.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: left top;background-repeat: no-repeat;padding-top:20px;padding-right:0px;padding-bottom:0px;padding-left:0px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-blend-mode 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="background-color:#f6f6f6;padding: 40px 40px 40px 40px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p style="font-size: 18px; margin-bottom: 12px;"><span style="color: #333333;"><strong>Total Control Over Meta Deta Display</strong></span></p>
+<p style="font-size: 17px; line-height: 27px; margin-bottom: 0px;">With each blog shortcode comes a full set of options for meta data. These options allow you to enable or disable each different section of meta data, or the entire set together.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: left top;background-repeat: no-repeat;padding-top:35px;padding-right:0px;padding-bottom:70px;padding-left:0px;border-top-width:0px;border-bottom-width:0px;border-color:#eaeaea;border-top-style:solid;border-bottom-style:solid;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_2  fusion-one-half fusion-column-first 1_2"  style='margin-top:0px;margin-bottom:20px;width:48%; margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="imageframe-align-center"><span style="border:7px solid rgba(000,000,000,.05);" class="fusion-imageframe imageframe-none imageframe-20 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg" width="337" height="234" alt="" title="download-features.6a2e9a82" class="img-responsive wp-image-148" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564-200x139.jpg 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/download-features.6a2e9a82-e1536223556564.jpg 337w" sizes="(max-width: 800px) 100vw, 337px" /></span></div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_2  fusion-one-half fusion-column-last 1_2"  style='margin-top:0px;margin-bottom:20px;width:48%'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<ul class="fusion-checklist fusion-checklist-1" style="font-size:13px;line-height:22.1px;"><li class="fusion-li-item"><span style="background-color:#a0ce4e;font-size:11.44px;height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-yes"><i class="fusion-li-icon  fa fa-check" style="color:#ffffff;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">Show or hide all meta info with one easyoption.</div></li><li class="fusion-li-item"><span style="background-color:#a0ce4e;font-size:11.44px;height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-yes"><i class="fusion-li-icon  fa fa-check" style="color:#ffffff;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">Show or hide the author of the post.</div></li><li class="fusion-li-item"><span style="background-color:#a0ce4e;font-size:11.44px;height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-yes"><i class="fusion-li-icon  fa fa-check" style="color:#ffffff;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">Show or hide the individual post categories.</div></li><li class="fusion-li-item"><span style="background-color:#a0ce4e;font-size:11.44px;height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-yes"><i class="fusion-li-icon  fa fa-check" style="color:#ffffff;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">Show or hide the comment icon and number.</div></li><li class="fusion-li-item"><span style="background-color:#a0ce4e;font-size:11.44px;height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-yes"><i class="fusion-li-icon  fa fa-check" style="color:#ffffff;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">Show or hide the date of the post.</div></li><li class="fusion-li-item"><span style="background-color:#a0ce4e;font-size:11.44px;height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-yes"><i class="fusion-li-icon  fa fa-check" style="color:#ffffff;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">Show or hide the Read More link with icon arrow.</div></li><li class="fusion-li-item"><span style="background-color:#a0ce4e;font-size:11.44px;height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-yes"><i class="fusion-li-icon  fa fa-check" style="color:#ffffff;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">Show or hide the tags of the post.</div></li></ul><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: left top;background-repeat: no-repeat;padding-top:20px;padding-right:0px;padding-bottom:0px;padding-left:0px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last fusion-blend-mode 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="background-color:#f6f6f6;padding: 40px 40px 40px 40px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p style="font-size: 18px; margin-bottom: 12px;"><span style="color: #333333;"><strong>Complete Set of Options </strong></span></p>
+<p style="font-size: 17px; line-height: 27px; margin-bottom: 0px;">That&#8217;s not all, see below for the every option included with the blog shortcode.</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div><div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-equal-height-columns"  style='background-color: rgba(255,255,255,0);background-position: left top;background-repeat: no-repeat;padding-top:25px;padding-right:0px;padding-bottom:80px;padding-left:0px;border-top-width:0px;border-bottom-width:0px;border-color:#eae9e9;border-top-style:solid;border-bottom-style:solid;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_2  fusion-one-half fusion-column-first fusion-blend-mode 1_2"  style='margin-top:0px;margin-bottom:20px;width:48%; margin-right: 4%;'>
+					<div class="fusion-column-wrapper" style="background-color:#f8f8f8;border:1px solid #eaeaea;padding: 30px 30px 30px 30px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<ul class="fusion-checklist fusion-checklist-2" style="font-size:13px;line-height:22.1px;"><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">number_posts = numerical value to show how many posts you want per page, example 5. Can be -1 which means all posts will be displayed on one page</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">cat_slug = slug name of the category from which you want the posts to be displayed. Use a , for multiple categories</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">exclude_cats = slug name of the category you want to exclude. Use a , for multiple categories</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">title = one of these values: yes, no. This will show or hide the title</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">thumbnail = one of these values: yes, no. This will show or hide the image thumbnail</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">excerpt = one of these values: yes, no. This will show or hide the excerpt</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">excerpt_words = numerical value that controls length of excerpt</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">meta_all = one of these values: yes, no. This will show or hide all meta info</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">meta_author = one of these values: yes, no. This will show or hide the author</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">meta_categories = one of these values: yes, no. This will show or hide the categories</div></li></ul><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_2  fusion-one-half fusion-column-last fusion-blend-mode 1_2"  style='margin-top:0px;margin-bottom:20px;width:48%'>
+					<div class="fusion-column-wrapper" style="background-color:#f8f8f8;border:1px solid #eaeaea;padding: 30px 30px 30px 30px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<ul class="fusion-checklist fusion-checklist-3" style="font-size:13px;line-height:22.1px;"><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">meta_comments = one of these values: yes, no. This will show or hide the comments</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">meta_date = one of these values: yes, no. This will show or hide the date</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">meta_link = one of these values: yes, no. This will show or hide the link</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">paging = one of these values: yes, no. This will show or hide pagination</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">scrolling = one of these values: pagination or infinite</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">strip_HTML = one of these values: yes, no. This will show or hide HTML in the excertps</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">blog_grid_columns = one of these values: 2, 3, 4, 5, 6. Controls the column width of blog grid layout</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">layout = one of these values: large, medium, large alternate, medium alternate, grid, timeline</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">class = add a custom class to the wrapping HTML element for further css customization.</div></li><li class="fusion-li-item"><span style="height:22.1px;width:22.1px;margin-right:9.1px;" class="icon-wrapper circle-no"><i class="fusion-li-icon  fa fa-check" style="color:#333333;"></i></span><div class="fusion-li-item-content" style="margin-left:31.2px;">id = add a custom id to the wrapping HTML element for further css customization.</div></li></ul><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div></p>
+]]></content:encoded>
+			<wfw:commentRss>https://tubevideos.github.io/index.php/2018/09/06/blog/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Team NewPipe needs your feedback</title>
+		<link>https://tubevideos.github.io/index.php/2018/09/06/team-newpipe-needs-your-feedback/</link>
+		<comments>https://tubevideos.github.io/index.php/2018/09/06/team-newpipe-needs-your-feedback/#respond</comments>
+		<pubDate>Thu, 06 Sep 2018 08:38:48 +0000</pubDate>
+		<dc:creator><![CDATA[tangyiming]]></dc:creator>
+				<category><![CDATA[NewPipeBlog]]></category>
+
+		<guid isPermaLink="false">https://tubevideos.github.io/?p=142</guid>
+		<description><![CDATA[Team NewPipe needs your help! Since we do not collect any data in the app or on the website, we depend on your feedback. Therefore, please take two minutes to tell us what you like about NewPipe, which features you use most and what could be improved. Your participation allows us to collect the &#91;...&#93;]]></description>
+				<content:encoded><![CDATA[<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;'><div class="fusion-builder-row fusion-row "><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p><span style="font-size: 16px; color: #000000;">Team NewPipe needs your help!</span></p>
+<p><span style="font-size: 16px; color: #000000;">Since we do not collect any data in the app or on the website, we depend on your feedback.</span></p>
+<p><span style="font-size: 16px; color: #000000;">Therefore, please take two minutes to tell us what you like about NewPipe, which features you use most and what could be improved. Your participation allows us to collect the information we need to improve NewPipe. So please leave a comment below and help us advance NewPipe.</span></p>
+<p><span style="font-size: 16px; color: #000000;">Not only the app, but also our website is constantly being developed further. Part of our new web presence will also be an area where very nice feedback is presented to convince potential new users of NewPipe. So if you like a feature of the app, please share it.</span></p>
+<p><span style="font-size: 16px; color: #000000;">With this in mind, we would like to thank everyone who gives us feedback regularly on GitHub.</span></p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div>
+]]></content:encoded>
+			<wfw:commentRss>https://tubevideos.github.io/index.php/2018/09/06/team-newpipe-needs-your-feedback/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

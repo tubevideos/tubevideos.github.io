@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html class="avada-html-layout-wide avada-html-has-sticky-footer" lang="zh-CN" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>NewPipe 0.14.0 released, featuring a more customizable main page &#8211; wordpress学习</title>
+<meta name='robots' content='noindex,follow' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="wordpress学习 &raquo; Feed" href="https://tubevideos.github.io/index.php/feed/" />
+<link rel="alternate" type="application/rss+xml" title="wordpress学习 &raquo; 评论Feed" href="https://tubevideos.github.io/index.php/comments/feed/" />
+		
+		
+		
+		
+				<link rel="alternate" type="application/rss+xml" title="wordpress学习 &raquo; NewPipe 0.14.0 released, featuring a more customizable main page评论Feed" href="https://tubevideos.github.io/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/feed/" />
+
+		<meta property="og:title" content="NewPipe 0.14.0 released, featuring a more customizable main page"/>
+		<meta property="og:type" content="article"/>
+		<meta property="og:url" content="https://tubevideos.github.io/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/"/>
+		<meta property="og:site_name" content="wordpress学习"/>
+		<meta property="og:description" content="It has been a while since the last post was published, but here we are, back with great news:We proudly announce NewPipe version 0.14.0, which comes with a more customizable main page, a better navigation menu and several player improvements.@Somethingweirdhere"/>
+
+									<meta property="og:image" content="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_settings_main_tabs-e1536220020134.png"/>
+									<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/tangym123.github.io\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='layerslider-css'  href='https://tubevideos.github.io/wp-content/plugins/LayerSlider/static/layerslider/css/layerslider.css?ver=6.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://tubevideos.github.io/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://tubevideos.github.io/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.8' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='avada-stylesheet-css'  href='https://tubevideos.github.io/wp-content/themes/Avada/assets/css/style.min.css?ver=5.6.2' type='text/css' media='all' />
+<!--[if lte IE 9]>
+<link rel='stylesheet' id='avada-IE-fontawesome-css'  href='https://tubevideos.github.io/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/font-awesome.min.css?ver=5.6.2' type='text/css' media='all' />
+<![endif]-->
+<!--[if IE]>
+<link rel='stylesheet' id='avada-IE-css'  href='https://tubevideos.github.io/wp-content/themes/Avada/assets/css/ie.min.css?ver=5.6.2' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='fusion-dynamic-css-css'  href='https://tubevideos.github.io/wp-content/uploads/fusion-styles/d6294df70e2d05e742ed0307df4cd687.min.css?ver=4.9.8' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"6.7.6"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/plugins/LayerSlider/static/layerslider/js/greensock.js?ver=1.19.0'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.6'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitions.js?ver=6.7.6'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.8'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8'></script>
+<meta name="generator" content="Powered by LayerSlider 6.7.6 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
+<link rel='https://api.w.org/' href='https://tubevideos.github.io/index.php/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tubevideos.github.io/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://tubevideos.github.io/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel="canonical" href="https://tubevideos.github.io/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/" />
+<link rel='shortlink' href='https://tubevideos.github.io/?p=98' />
+<link rel="alternate" type="application/json+oembed" href="https://tubevideos.github.io/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F06%2Fnewpipe-0-14-0-released-featuring-a-more-customizable-main-page%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://tubevideos.github.io/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F06%2Fnewpipe-0-14-0-released-featuring-a-more-customizable-main-page%2F&#038;format=xml" />
+<meta name="generator" content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+		<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+
+		
+	<script type="text/javascript">
+		var doc = document.documentElement;
+		doc.setAttribute('data-useragent', navigator.userAgent);
+	</script>
+
+	</head>
+
+<body class="post-template-default single single-post postid-98 single-format-standard fusion-image-hovers fusion-body ltr no-mobile-slidingbar no-mobile-totop mobile-logo-pos-left layout-wide-mode has-sidebar fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-sticky-with-parallax-bg-image fusion-search-form-classic fusion-avatar-square">
+	<a class="skip-link screen-reader-text" href="#content">跳到内容</a>
+				<div id="wrapper" class="">
+		<div id="home" style="position:relative;top:-1px;"></div>
+		
+			<header class="fusion-header-wrapper">
+				<div class="fusion-header-v1 fusion-logo-left fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo-  fusion-mobile-menu-design-modern">
+					<div class="fusion-header-sticky-height"></div>
+<div class="fusion-header">
+	<div class="fusion-row">
+					<div class="fusion-logo" data-margin-top="31px" data-margin-bottom="31px" data-margin-left="0px" data-margin-right="0px">
+			<a class="fusion-logo-link"  href="https://tubevideos.github.io/" >
+
+						<!-- standard logo -->
+			<img src="https://tubevideos.github.io/wp-content/themes/Avada/assets/images/logo.png" srcset="https://tubevideos.github.io/wp-content/themes/Avada/assets/images/logo.png 1x" width="" height="" alt="wordpress学习 Logo" retina_logo_url="" class="fusion-standard-logo" />
+
+			
+					</a>
+		</div>		<nav class="fusion-main-menu" aria-label="Main Menu"><ul role="menubar" id="menu-main" class="fusion-menu"><li  id="menu-item-395"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-395"  ><a  href="https://tubevideos.github.io/" class="fusion-bar-highlight" role="menuitem"><span class="menu-text">Home</span></a></li><li  id="menu-item-396"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"  ><a  href="https://tubevideos.github.io/index.php/faq/" class="fusion-bar-highlight" role="menuitem"><span class="menu-text">FAQ</span></a></li><li  id="menu-item-398"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"  ><a  href="https://tubevideos.github.io/index.php/all-posts/" class="fusion-bar-highlight" role="menuitem"><span class="menu-text">Blog</span></a></li><li  id="menu-item-397"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397"  ><a  href="https://tubevideos.github.io/index.php/pressfactsheet/" class="fusion-bar-highlight" role="menuitem"><span class="menu-text">Factsheet</span></a></li></ul></nav>	<div class="fusion-mobile-menu-icons">
+							<a href="#" class="fusion-icon fusion-icon-bars" aria-label="切换移动菜单" aria-expanded="false"></a>
+		
+		
+		
+			</div>
+	
+<nav class="fusion-mobile-nav-holder fusion-mobile-menu-text-align-left"></nav>
+
+					</div>
+</div>
+				</div>
+				<div class="fusion-clearfix"></div>
+			</header>
+					
+		
+		<div id="sliders-container">
+					</div>
+				
+		
+							
+		
+						<main id="main" role="main" class="clearfix" style="">
+			<div class="fusion-row" style="">
+<section id="content" style="float: left;">
+
+		
+			
+		<div class="single-navigation clearfix">
+						<a href="https://tubevideos.github.io/index.php/2018/09/06/faq-now-available/" rel="next">下一页</a>		</div> 
+		
+		<p>左边图片：<img src="" /></p><p>头部标题：</p><p>icon标签：<img src=""><p>好评数字：</p><p>icon标签：<img src=""><p>用户数字：</p><p>生产工具：</p><p>提供方：</p>		
+						<article id="post-98" class="post post-98 type-post status-publish format-standard has-post-thumbnail hentry category-newpipeblog">
+						
+																								
+															<h1 class="entry-title fusion-post-title">NewPipe 0.14.0 released, featuring a more customizable main page</h1>										<div class="post-content">
+												<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:60px;padding-right:0px;padding-bottom:60px;padding-left:0px;'><div class="fusion-builder-row fusion-row"><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<span style="margin-right:25px;float:left;" class="fusion-imageframe imageframe-none imageframe-1 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/logo-2-150x150.png" width="150" height="150" alt="" title="logo" class="img-responsive wp-image-132" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/logo-2-200x200.png 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/logo-2-400x400.png 400w, https://tubevideos.github.io/wp-content/uploads/2018/09/logo-2.png 425w" sizes="(max-width: 800px) 100vw, 150px" /></span><div class="fusion-text"><p style="text-align: left;"><span style="font-size: 16px;">It has been a while since the last post was published, but here we are, back with great news:</span></p>
+<p style="text-align: left;"><span style="font-size: 16px;">We proudly announce NewPipe version 0.14.0, which comes with a more customizable main page, a better navigation menu and several player improvements.</span></p>
+<p style="text-align: left;"><span style="font-size: 16px;"><a href="https://github.com/Somethingweirdhere"><span style="color: #cd322e;">@Somethingweirdhere</span></a><span style="color: #cd322e;"> </span>invested time to polish NewPipe’s UI. We all thank him for his effort. Due to the new look and the even more customizable main page, we think a short summary of the changes in NewPipe 0.14.0 might be helpful to all users who want to try them out immediately.</span></p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="padding: 0px 0px 0px 0px;background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><h2 id="better-navigation-menu"><span style="font-size: 30px; color: #000000;">Better Navigation Menu</span></h2>
+</div><div class="fusion-text"><p><span style="font-size: 16px;"><span style="color: #cd322e;"><a style="color: #cd322e;" href="https://github.com/Somethingweirdhere">@Somethingweirdhere</a></span> helped introduce a more Material style look by adding the content from the options menu to the navigation menu. You can open it by clicking on the burger menu icon on the top left or swiping from the left edge of the screen to the right.</span></p>
+</div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:;"></div><div class="imageframe-align-center"><span class="fusion-imageframe imageframe-none imageframe-2 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_navigation_drawer-e1536219869235.png" width="295" height="524" alt="" title="shot_navigation_drawer" class="img-responsive wp-image-103" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_navigation_drawer-e1536219869235-200x355.png 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/shot_navigation_drawer-e1536219869235.png 295w" sizes="(max-width: 800px) 100vw, 295px" /></span></div><div class="fusion-text"><p><span style="font-size: 16px;">You will notice a new element structure in the navigation menu. As NewPipe aims to support multiple services, only the respective sub-pages are visible and all services are hidden. So-called “kiosks” such as “Trending” in the case of YouTube or SoundCloud’s “Top 50” change here depending on the active service. To change to another service, tap on the small triangle in the lower right corner of the NewPipe banner, which allows you to switch between all available services.</span></p>
+</div><div class="fusion-text"><p><span style="font-size: 16px;">YouTube is used by default. To switch to e.g., SoundCloud instead, tap on it, and you’ll notice a change in the color theme. Furthermore, the navigation menu will contain the “Top 50” and “New and Hot” kiosks instead of the YouTube ones.</span></p>
+</div><div class="imageframe-align-center"><span class="fusion-imageframe imageframe-none imageframe-3 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_navigation_drawer_services-e1536219975258.png" width="295" height="524" alt="" title="shot_navigation_drawer_services" class="img-responsive wp-image-104" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_navigation_drawer_services-e1536219975258-200x355.png 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/shot_navigation_drawer_services-e1536219975258.png 295w" sizes="(max-width: 800px) 100vw, 295px" /></span></div><div class="fusion-text"><h2 id="more-flexibility-on-the-main-page" style="padding-top: 20px;"><span style="font-size: 30px;">More flexibility on the main page</span></h2>
+</div><div class="fusion-text"><p><span style="font-size: 16px;">Starting with version 0.14.0 it is now possible to add and remove several tabs to and from your main page. To do so, open the settings via the navigation drawer. In contrary to earlier versions, the content management of the main page is now placed in the category “Appearance”. The specific setting is still called “Content of main page”. Tap on it to manage the different tabs.</span></p>
+</div><div class="fusion-text"><p><span style="font-size: 16px;">You can reorder the tabs via drag and drop and remove a tab by swiping it to left or right side of the screen. To add a new tab, use the “+” button at the right bottom. To make this feature as convenient as possible, changes will be saved automatically, and will survive restarts.</span></p>
+</div><div class="imageframe-align-center"><span class="fusion-imageframe imageframe-none imageframe-4 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_settings_main_tabs-e1536220020134.png" width="295" height="524" alt="" title="shot_settings_main_tabs" class="img-responsive wp-image-105" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_settings_main_tabs-e1536220020134-200x355.png 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/shot_settings_main_tabs-e1536220020134.png 295w" sizes="(max-width: 800px) 100vw, 295px" /></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-double sep-solid" style="border-color:#fffcfc;border-top-width:1px;border-bottom-width:1px;margin-left: auto;margin-right: auto;margin-top:;"></div><div class="fusion-text"><h2 id="further-changes" style="padding-top: 20px;"><span style="color: #000000; font-size: 30px;">Further changes</span></h2>
+</div><div class="fusion-text"><p><span style="font-size: 16px;">As explained in the <span style="color: #cd322e;"><a style="color: #cd322e;" href="https://newpipe.schabi.org/FAQ/download/">FAQ</a></span>, NewPipe does not support downloads to external SD cards by now. To improve the user experience and prevent the app from crashing (yes, it actually did!), users are now warned when selecting a directory on an external SD card.</span></p>
+</div><div class="imageframe-align-center"><span class="fusion-imageframe imageframe-none imageframe-5 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_popup_close-e1536220076800.png" width="295" height="524" alt="" title="shot_popup_close" class="img-responsive wp-image-106" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_popup_close-e1536220076800-200x355.png 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/shot_popup_close-e1536220076800.png 295w" sizes="(max-width: 800px) 100vw, 295px" /></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:;"></div><div class="fusion-text"><p><span style="font-size: 16px;">Some users requested a better way to close NewPipe’s popup window. To address this request, <span style="color: #cd322e;"><a style="color: #cd322e;" href="https://github.com/mauriciocolli">@mauriciocolli</a></span> added a red closing button, which appears on the bottom of the screen when the popup window is moved. To close the popup, just drag it onto the button, just like e.g., app links on the home screen which should be removed.</span></p>
+</div><div class="imageframe-align-center"><span class="fusion-imageframe imageframe-none imageframe-6 hover-type-none"><img src="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_player_volume_change-e1536220146523.png" width="532" height="299" alt="" title="shot_player_volume_change" class="img-responsive wp-image-107" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_player_volume_change-e1536220146523-200x112.png 200w, https://tubevideos.github.io/wp-content/uploads/2018/09/shot_player_volume_change-e1536220146523-400x225.png 400w, https://tubevideos.github.io/wp-content/uploads/2018/09/shot_player_volume_change-e1536220146523.png 532w" sizes="(max-width: 800px) 100vw, 532px" /></span></div><div class="fusion-sep-clear"></div><div class="fusion-separator fusion-full-width-sep sep-none" style="margin-left: auto;margin-right: auto;margin-top:;"></div><div class="fusion-text"><p><span style="font-size: 16px;"><span style="color: #cd322e;"><a style="color: #cd322e;" href="https://github.com/TheMatten">@TheMatten</a> </span>improved the player’s UI when changing volume and brightness.</span></p>
+<p><span style="font-size: 16px;">As usual, the team fixed a couple of bugs in the new version. For example, in the search results, only the first two pages were loaded and then repeated infinitely. This bug was fixed by <span style="color: #cd322e;"><a style="color: #cd322e;" href="https://github.com/theScrabi">@theScrabi</a>.</span></span></p>
+<p><span style="font-size: 16px;">YouTube Premium videos are blocked correctly now. Some videos which did not load due to issues in the MPEG-DASH parser should now load as expected. A bug which prevented video thumbnails to not show up on the notification on Android 8.1 has also been fixed. Also, more links in the video description work correctly now.</span></p>
+<p><span style="font-size: 16px;">Some incorrect information was corrected. We’ve removed the explanations of M4A and WebM audio formats from all translations. At this point we would like to thank the numerous translators which updated and improved translations for this release.</span></p>
+</div><div class="fusion-text"><h2 id="get-the-new-version"><span style="color: #000000; font-size: 30px;">Get the new version</span></h2>
+</div><div class="fusion-text"><p><span style="font-size: 16px;">You can download NewPipe 0.14.0 either from <span style="color: #cd322e;"><a style="color: #cd322e;" href="https://f-droid.org/packages/org.schabi.newpipe/">F-Droid</a> </span>or the <span style="color: #cd322e;"><a style="color: #cd322e;" href="https://github.com/TeamNewPipe/NewPipe/releases/tag/v0.14.0">GitHub release page</a></span>.</span></p>
+<p><span style="font-size: 16px;">We recommend you to install the <span style="color: #cd322e;"><a style="color: #cd322e;" href="https://f-droid.org/">F-Droid app</a></span> as it notifies you as soon as an update for NewPipe is available.</span></p>
+<p><span style="font-size: 16px;">Please let us know about your experience in the latest release, especially bugs that need to be fixed. As usual, you can reach out to us via IRC (<span style="color: #cd322e;"><a style="color: #cd322e;" href="https://webchat.freenode.net/?channels=newpipe">#newpipe on FreeNode</a></span>), <span style="color: #cd322e;"><a style="color: #cd322e;" href="https://github.com/TeamNewPipe/NewPipe/issues/new">open issues on GitHub</a></span> or ideally use our built-in crash reporter to send us machine-readable issue reports.</span></p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div>
+			</div>
+
+												<div class="fusion-meta-info"><div class="fusion-meta-info-wrapper">By <span class="vcard"><span class="fn"><a href="https://tubevideos.github.io/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2018-09-13T16:23:08+00:00</span><span>九月 6th, 2018</span><span class="fusion-inline-sep">|</span><a href="https://tubevideos.github.io/index.php/category/newpipeblog/" rel="category tag">NewPipeBlog</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://tubevideos.github.io/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/#respond">0 条评论</a></span></div></div>													<div class="fusion-sharing-box fusion-single-sharing-box share-box">
+		<h4>选择你的平台分享这篇文章</h4>
+		<div class="fusion-social-networks"><div class="fusion-social-networks-wrapper"><a  class="fusion-social-network-icon fusion-tooltip fusion-facebook fusion-icon-facebook" style="color:#bebdbd;" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F06%2Fnewpipe-0-14-0-released-featuring-a-more-customizable-main-page%2F&amp;t=NewPipe%200.14.0%20released%2C%20featuring%20a%20more%20customizable%20main%20page" target="_blank" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook"><span class="screen-reader-text">Facebook</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-twitter fusion-icon-twitter" style="color:#bebdbd;" href="https://twitter.com/share?text=NewPipe%200.14.0%20released%2C%20featuring%20a%20more%20customizable%20main%20page&amp;url=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F06%2Fnewpipe-0-14-0-released-featuring-a-more-customizable-main-page%2F" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Twitter" data-toggle="tooltip" title="Twitter"><span class="screen-reader-text">Twitter</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-linkedin fusion-icon-linkedin" style="color:#bebdbd;" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://tubevideos.github.io/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/&amp;title=NewPipe%200.14.0%20released%2C%20featuring%20a%20more%20customizable%20main%20page&amp;summary=It%20has%20been%20a%20while%20since%20the%20last%20post%20was%20published%2C%20but%20here%20we%20are%2C%20back%20with%20great%20news%3A%0D%0AWe%20proudly%20announce%20NewPipe%20version%200.14.0%2C%20which%20comes%20with%20a%20more%20customizable%20main%20page%2C%20a%20better%20navigation%20menu%20and%20several%20player%20improvements.%0D%0A%40Something" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="LinkedIn" data-toggle="tooltip" title="LinkedIn"><span class="screen-reader-text">LinkedIn</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-reddit fusion-icon-reddit" style="color:#bebdbd;" href="http://reddit.com/submit?url=https://tubevideos.github.io/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/&amp;title=NewPipe%200.14.0%20released%2C%20featuring%20a%20more%20customizable%20main%20page" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Reddit" data-toggle="tooltip" title="Reddit"><span class="screen-reader-text">Reddit</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-whatsapp fusion-icon-whatsapp" style="color:#bebdbd;" href="https://api.whatsapp.com/send?text=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F06%2Fnewpipe-0-14-0-released-featuring-a-more-customizable-main-page%2F" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Whatsapp" data-toggle="tooltip" title="Whatsapp"><span class="screen-reader-text">Whatsapp</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-googleplus fusion-icon-googleplus" style="color:#bebdbd;" href="https://plus.google.com/share?url=https://tubevideos.github.io/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/" onclick="javascript:window.open(this.href,&#039;&#039;, &#039;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#039;);return false;" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Google+" data-toggle="tooltip" title="Google+"><span class="screen-reader-text">Google+</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-tumblr fusion-icon-tumblr" style="color:#bebdbd;" href="http://www.tumblr.com/share/link?url=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F06%2Fnewpipe-0-14-0-released-featuring-a-more-customizable-main-page%2F&amp;name=NewPipe%200.14.0%20released%2C%20featuring%20a%20more%20customizable%20main%20page&amp;description=It%20has%20been%20a%20while%20since%20the%20last%20post%20was%20published%2C%20but%20here%20we%20are%2C%20back%20with%20great%20news%3A%0D%0AWe%20proudly%20announce%20NewPipe%20version%200.14.0%2C%20which%20comes%20with%20a%20more%20customizable%20main%20page%2C%20a%20better%20navigation%20menu%20and%20several%20player%20improvements.%0D%0A%40Somethingweirdhere" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Tumblr" data-toggle="tooltip" title="Tumblr"><span class="screen-reader-text">Tumblr</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-pinterest fusion-icon-pinterest" style="color:#bebdbd;" href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F06%2Fnewpipe-0-14-0-released-featuring-a-more-customizable-main-page%2F&amp;description=It%20has%20been%20a%20while%20since%20the%20last%20post%20was%20published%2C%20but%20here%20we%20are%2C%20back%20with%20great%20news%3A%0D%0AWe%20proudly%20announce%20NewPipe%20version%200.14.0%2C%20which%20comes%20with%20a%20more%20customizable%20main%20page%2C%20a%20better%20navigation%20menu%20and%20several%20player%20improvements.%0D%0A%40Somethingweirdhere&amp;media=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Fwp-content%2Fuploads%2F2018%2F09%2Fshot_settings_main_tabs-e1536220020134.png" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest"><span class="screen-reader-text">Pinterest</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-vk fusion-icon-vk" style="color:#bebdbd;" href="http://vkontakte.ru/share.php?url=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F06%2Fnewpipe-0-14-0-released-featuring-a-more-customizable-main-page%2F&amp;title=NewPipe%200.14.0%20released%2C%20featuring%20a%20more%20customizable%20main%20page&amp;description=It%20has%20been%20a%20while%20since%20the%20last%20post%20was%20published%2C%20but%20here%20we%20are%2C%20back%20with%20great%20news%3A%0D%0AWe%20proudly%20announce%20NewPipe%20version%200.14.0%2C%20which%20comes%20with%20a%20more%20customizable%20main%20page%2C%20a%20better%20navigation%20menu%20and%20several%20player%20improvements.%0D%0A%40Somethingweirdhere" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Vk" data-toggle="tooltip" title="Vk"><span class="screen-reader-text">Vk</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-mail fusion-icon-mail fusion-last-social-icon" style="color:#bebdbd;" href="mailto:/?subject=NewPipe%200.14.0%20released%2C%20featuring%20a%20more%20customizable%20main%20page&amp;body=https://tubevideos.github.io/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/" target="_self" rel="noopener noreferrer" data-placement="top" data-title="Email" data-toggle="tooltip" title="Email"><span class="screen-reader-text">Email</span></a><div class="fusion-clearfix"></div></div></div>	</div>
+														<section class="about-author">
+																						<div class="fusion-title fusion-title-size-two sep-" style="margin-top:0px;margin-bottom:31px;">
+					<h2 class="title-heading-left">
+						关于作者: 						<a href="https://tubevideos.github.io/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a>																	</h2>
+					<div class="title-sep-container">
+						<div class="title-sep sep-"></div>
+					</div>
+				</div>
+										<div class="about-author-container">
+							<div class="avatar">
+								<img alt='' src='http://2.gravatar.com/avatar/540d12168e7488f77aadd3687e9d54f6?s=72&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/540d12168e7488f77aadd3687e9d54f6?s=144&#038;d=mm&#038;r=g 2x' class='avatar avatar-72 photo' height='72' width='72' />							</div>
+							<div class="description">
+															</div>
+						</div>
+					</section>
+								<section class="related-posts single-related-posts">
+					<div class="fusion-title fusion-title-size-two sep-" style="margin-top:0px;margin-bottom:31px;">
+					<h2 class="title-heading-left">
+						相关文章					</h2>
+					<div class="title-sep-container">
+						<div class="title-sep sep-"></div>
+					</div>
+				</div>
+				
+	
+	
+	
+	
+				<div class="fusion-carousel" data-imagesize="fixed" data-metacontent="no" data-autoplay="no" data-touchscroll="no" data-columns="5" data-itemmargin="44px" data-itemwidth="180">
+		<div class="fusion-carousel-positioner">
+			<ul class="fusion-carousel-holder">
+																							<li class="fusion-carousel-item">
+						<div class="fusion-carousel-item-wrapper">
+							
+
+<div  class="fusion-image-wrapper fusion-image-size-fixed" aria-haspopup="true">
+	
+	
+		
+	
+						<div class="fusion-placeholder-image" data-origheight="150" data-origwidth="1500px" style="height:150px;width:1500px;"></div>
+		
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tubevideos.github.io/index.php/2018/09/14/477/">post-1</a>
+			
+														
+								
+								
+													
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tubevideos.github.io/index.php/2018/09/14/477/">
+						post-1					</a>
+				</h4>
+			
+								
+		
+				<a class="fusion-link-wrapper" href="https://tubevideos.github.io/index.php/2018/09/14/477/" aria-label="post-1"></a>
+	</div>
+</div>
+
+	
+</div>
+													</div><!-- fusion-carousel-item-wrapper -->
+					</li>
+																			<li class="fusion-carousel-item">
+						<div class="fusion-carousel-item-wrapper">
+							
+
+<div  class="fusion-image-wrapper fusion-image-size-fixed" aria-haspopup="true">
+	
+	
+		
+	
+						<div class="fusion-placeholder-image" data-origheight="150" data-origwidth="1500px" style="height:150px;width:1500px;"></div>
+		
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tubevideos.github.io/index.php/2018/09/12/zb/">自定义字段</a>
+			
+														
+								
+								
+													
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tubevideos.github.io/index.php/2018/09/12/zb/">
+						自定义字段					</a>
+				</h4>
+			
+								
+		
+				<a class="fusion-link-wrapper" href="https://tubevideos.github.io/index.php/2018/09/12/zb/" aria-label="自定义字段"></a>
+	</div>
+</div>
+
+	
+</div>
+													</div><!-- fusion-carousel-item-wrapper -->
+					</li>
+																			<li class="fusion-carousel-item">
+						<div class="fusion-carousel-item-wrapper">
+							
+
+<div  class="fusion-image-wrapper fusion-image-size-fixed" aria-haspopup="true">
+	
+	
+				<img src="https://tubevideos.github.io/wp-content/uploads/2018/09/blog_1_rev-1-e1536227857738-500x383.jpg" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/blog_1_rev-1-e1536227857738-500x383.jpg 1x, https://tubevideos.github.io/wp-content/uploads/2018/09/blog_1_rev-1-e1536227857738-500x383@2x.jpg 2x" width="500" height="383" alt="Blog lmage Post" />
+
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tubevideos.github.io/index.php/2018/09/06/blog-lmage-post/">Blog lmage Post</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tubevideos.github.io/wp-content/uploads/2018/09/blog_1_rev-1-e1536227857738.jpg" data-id="193" data-rel="iLightbox[gallery]" data-title="blog_1_rev-1" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tubevideos.github.io/index.php/2018/09/06/blog-lmage-post/">
+						Blog lmage Post					</a>
+				</h4>
+			
+								
+		
+				<a class="fusion-link-wrapper" href="https://tubevideos.github.io/index.php/2018/09/06/blog-lmage-post/" aria-label="Blog lmage Post"></a>
+	</div>
+</div>
+
+	
+</div>
+													</div><!-- fusion-carousel-item-wrapper -->
+					</li>
+																			<li class="fusion-carousel-item">
+						<div class="fusion-carousel-item-wrapper">
+							
+
+<div  class="fusion-image-wrapper fusion-image-size-fixed" aria-haspopup="true">
+	
+	
+				<img src="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_player_volume_change-e1536220146523-500x383.png" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_player_volume_change-e1536220146523-500x383.png 1x, https://tubevideos.github.io/wp-content/uploads/2018/09/shot_player_volume_change-e1536220146523-500x383@2x.png 2x" width="500" height="383" alt="NewPip Beta now available" />
+
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tubevideos.github.io/index.php/2018/09/06/newpip-beta-now-available/">NewPip Beta now available</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tubevideos.github.io/wp-content/uploads/2018/09/shot_player_volume_change-e1536220146523.png" data-id="167" data-rel="iLightbox[gallery]" data-title="shot_player_volume_change" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tubevideos.github.io/index.php/2018/09/06/newpip-beta-now-available/">
+						NewPip Beta now available					</a>
+				</h4>
+			
+								
+		
+				<a class="fusion-link-wrapper" href="https://tubevideos.github.io/index.php/2018/09/06/newpip-beta-now-available/" aria-label="NewPip Beta now available"></a>
+	</div>
+</div>
+
+	
+</div>
+													</div><!-- fusion-carousel-item-wrapper -->
+					</li>
+																			<li class="fusion-carousel-item">
+						<div class="fusion-carousel-item-wrapper">
+							
+
+<div  class="fusion-image-wrapper fusion-image-size-fixed" aria-haspopup="true">
+	
+	
+				<img src="https://tubevideos.github.io/wp-content/uploads/2018/09/34c3_logo-500x383.png" srcset="https://tubevideos.github.io/wp-content/uploads/2018/09/34c3_logo-500x383.png 1x, https://tubevideos.github.io/wp-content/uploads/2018/09/34c3_logo-500x383@2x.png 2x" width="500" height="383" alt="NewPipe talk during FSFE Assembly on 34C3" />
+
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tubevideos.github.io/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/">NewPipe talk during FSFE Assembly on 34C3</a>
+			
+														
+								
+													<div class="fusion-rollover-sep"></div>
+				
+																		<a class="fusion-rollover-gallery" href="https://tubevideos.github.io/wp-content/uploads/2018/09/34c3_logo.png" data-id="161" data-rel="iLightbox[gallery]" data-title="34c3_logo" data-caption="">
+						画廊					</a>
+														
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tubevideos.github.io/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/">
+						NewPipe talk during FSFE Assembly on 34C3					</a>
+				</h4>
+			
+								
+		
+				<a class="fusion-link-wrapper" href="https://tubevideos.github.io/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/" aria-label="NewPipe talk during FSFE Assembly on 34C3"></a>
+	</div>
+</div>
+
+	
+</div>
+													</div><!-- fusion-carousel-item-wrapper -->
+					</li>
+							</ul><!-- fusion-carousel-holder -->
+										<div class="fusion-carousel-nav">
+					<span class="fusion-nav-prev"></span>
+					<span class="fusion-nav-next"></span>
+				</div>
+			
+		</div><!-- fusion-carousel-positioner -->
+	</div><!-- fusion-carousel -->
+</section><!-- related-posts -->
+
+
+																		
+
+
+
+		<div id="respond" class="comment-respond">
+		<h2 id="reply-title" class="comment-reply-title">留言 <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://tubevideos.github.io/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/#respond" style="display:none;">取消回复</a></small></h2>			<form action="https://tubevideos.github.io/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<div id="comment-textarea"><label class="screen-reader-text" for="comment">留言</label><textarea name="comment" id="comment" cols="45" rows="8" aria-required="true" required="required" tabindex="0" class="textarea-comment" placeholder="评论内容..."></textarea></div><div id="comment-input"><input id="author" name="author" type="text" value="" placeholder="昵称(必填)" size="30" aria-required='true' required='required' aria-label="名称"/>
+<input id="email" name="email" type="email" value="" placeholder="Email (必填)" size="30"  aria-required='true' required='required' aria-label="Email"/>
+<input id="url" name="url" type="url" value="" placeholder="网站" size="30" aria-label="URL" /></div>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /><label for="wp-comment-cookies-consent">下次我发表评论时，请在此浏览器中保存我的姓名，电子邮件和网站。</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="fusion-button fusion-button-default fusion-button-default-size" value="发表评论" /> <input type='hidden' name='comment_post_ID' value='98' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>			</form>
+			</div><!-- #respond -->
+														</article>
+		</section>
+<aside id="sidebar" role="complementary" class="sidebar fusion-widget-area fusion-content-widget-area fusion-sidebar-right fusion-blogsidebar fusion-sticky-sidebar" style="float: right;" >
+			<div class="fusion-sidebar-inner-content">
+											
+					<section id="nav_menu-4" class="widget widget_nav_menu"><div class="heading"><h4 class="widget-title">Also interesting</h4></div><div class="menu-blog-1-container"><ul id="menu-blog-1" class="menu"><li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-210"><a href="https://tubevideos.github.io/index.php/all-posts/">All Posts</a></li>
+<li id="menu-item-211" class="menu-item menu-item-type-post_type menu-item-object-post current-menu-item menu-item-211"><a href="https://tubevideos.github.io/index.php/2018/09/06/newpipe-0-14-0-released-featuring-a-more-customizable-main-page/">NewPipe 0.14.0 released, featuring a more customizable main page</a></li>
+<li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-212"><a href="https://tubevideos.github.io/index.php/2018/09/06/faq-now-available/">FAQ now available</a></li>
+<li id="menu-item-213" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-213"><a href="https://tubevideos.github.io/index.php/2018/09/06/newpipe-in-google-play-store/">NewPipe in Google Play Store</a></li>
+<li id="menu-item-214" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-214"><a href="https://tubevideos.github.io/index.php/2018/09/06/blog/">blog</a></li>
+<li id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-216"><a href="https://tubevideos.github.io/index.php/2018/09/06/newpipe-talk-during-fsfe-assembly-on-34c3/">NewPipe talk during FSFE Assembly on 34C3</a></li>
+</ul></div></section><section id="search-2" class="widget widget_search"><form role="search" class="searchform fusion-search-form" method="get" action="https://tubevideos.github.io/">
+	<div class="fusion-search-form-content">
+		<div class="fusion-search-field search-field">
+			<label class="screen-reader-text" for="s">搜索：</label>
+			<input type="text" value="" name="s" class="s" placeholder="搜索..." required aria-required="true" aria-label="搜索..."/>
+		</div>
+		<div class="fusion-search-button search-button">
+			<input type="submit" class="fusion-search-submit searchsubmit" value="&#xf002;" />
+		</div>
+	</div>
+</form>
+</section>					</div>
+	</aside>
+					
+				</div>  <!-- fusion-row -->
+			</main>  <!-- #main -->
+			
+			
+			
+										
+				<div class="fusion-footer">
+					
+	
+	<footer id="footer" class="fusion-footer-copyright-area">
+		<div class="fusion-row">
+			<div class="fusion-copyright-content">
+
+				<div class="fusion-copyright-notice">
+		<div>
+		<div class="container">
+            <div class="footer-links">
+                <span id="copyright-span" style="padding:0 12px;">Copyright © Team NewPipe.</span>
+                <span   style="padding:0 12px;"><a href="http://localhost/press/contact/">Contact</a></span>
+                <span   style="padding:0 12px;"><a href="http://localhost/legal/license/">Licensing</a></span>
+                <span   style="padding:0 12px;"><a href="http://localhost/legal/privacy/">Privacy Policy</a></span>
+            </div>
+        </div>	</div>
+</div>
+<div class="fusion-social-links-footer">
+	</div>
+
+			</div> <!-- fusion-fusion-copyright-content -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- #footer -->
+				</div> <!-- fusion-footer -->
+			
+								</div> <!-- wrapper -->
+
+								<a class="fusion-one-page-text-link fusion-page-load-link"></a>
+
+						<script type="text/javascript">
+				jQuery( document ).ready( function() {
+					var ajaxurl = 'https://tubevideos.github.io/wp-admin/admin-ajax.php';
+					if ( 0 < jQuery( '.fusion-login-nonce' ).length ) {
+						jQuery.get( ajaxurl, { 'action': 'fusion_login_nonce' }, function( response ) {
+							jQuery( '.fusion-login-nonce' ).html( response );
+						});
+					}
+				});
+				</script>
+				<link rel='stylesheet' id='so-css-Avada-css'  href='https://tubevideos.github.io/wp-content/uploads/so-css/so-css-Avada.css?ver=1537096910' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/tangym123.github.io\/wordpress\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u8bf7\u9a8c\u8bc1\u60a8\u4e0d\u662f\u4e00\u4e2a\u673a\u5668\u4eba\u3002"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.3'></script>
+<!--[if IE 9]>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-ie9.js?ver=1'></script>
+<![endif]-->
+<script type='text/javascript' src='https://tubevideos.github.io/wp-includes/js/comment-reply.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/uploads/fusion-scripts/dd2072c96571ebb215987b9dc62a1607.min.js'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+	</body>
+</html>

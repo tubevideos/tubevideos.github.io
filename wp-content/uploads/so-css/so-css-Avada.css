@@ -1,0 +1,193 @@
+/*自定义字段样式编写*/
+
+
+
+
+/*轮播图左右按钮自定义*/
+.fusion-nav-prev{
+	border-radius:50%;
+  width:60px;
+  height:60px;
+  background-color:#fff;
+}
+.fusion-nav-next{
+	border-radius:50%;
+  width:60px;
+  height:60px;
+  background-color:#fff;
+}
+/* 响应改变*/
+@media screen and (max-width:800px) {
+	.HomeBannerConterImg{ display:none;}
+  .Home-tab{display:none;}
+}
+
+/*首页banner部分*/
+.HomeBannerConter{
+  position:relative;
+	height:280px !important;
+}
+.HomeBannerConterImg{
+  width:229px;
+  height:300px;
+  position:absolute;
+  top:60px;
+}
+.HomeBannerConterIcon{
+	position:absolute;
+  top:256px;
+}
+.HomeGutHubContent {
+	width:35% !important;
+}
+
+.HomeButtonContent {
+	width:65% !important;
+  box-sizing:border-box;
+  padding-left:40px;
+ 	
+}
+/*首页选项卡*/
+.home-tab-content .home-tab-icon .nav ul{
+  padding-top:20px;
+  background:#e2dee0;
+	height:590px;
+}
+
+.home-tab-content .home-tab-icon .nav ul  li a{
+  height:60px;
+}
+
+.home-tab-content .home-tab-icon .nav ul  li a h4{
+	margin-top:6px;
+}
+.home-tab-icon{
+	height:590px;
+  overflow:hidden;
+}
+#fusion-tab-lightweight > h4{
+  font-size:18px;
+  font-weight:bold;
+ 	color:#cd201f;
+}
+
+
+#fusion-tab-downloads > h4{
+  font-size:18px;
+ 	color:#cd201f;
+   font-weight:bold;
+}
+
+
+#fusion-tab-extendedprivacy > h4{
+  font-size:18px;
+ 	color:#cd201f;
+   font-weight:bold;
+}
+
+
+#fusion-tab-backgroundplayer > h4{
+  font-size:18px;
+ 	color:#cd201f;
+   font-weight:bold;
+}
+
+
+#fusion-tab-popupplayer > h4{
+  font-size:18px;
+ 	color:#cd201f;
+   font-weight:bold;
+}
+
+
+#fusion-tab-subscriptions > h4{
+  font-size:18px;
+ 	color:#cd201f;
+   font-weight:bold;
+}
+
+
+#fusion-tab-bookmarks > h4{
+  font-size:18px;
+ 	color:#cd201f;
+   font-weight:bold;
+}
+
+
+#fusion-tab-history > h4{
+  font-size:18px;
+ 	color:#cd201f;
+   font-weight:bold;
+}
+
+.myButton01{
+	margin:0 6px 10px 0;
+}
+.myButton02{
+	margin:0 6px 10px 0;
+}
+.myButton03{
+	margin:0 6px 10px 0;
+}
+.myButton04{
+	margin:0 6px 10px 0;
+}
+.HomePipeLeftContainer ,.HomePipeRightContainer{
+  background:#e2dee0;
+	height:303px !important;
+}
+
+.footer_Container{
+  height:40px;
+  position:relative;
+}
+
+.footer_Container_img{
+	position:absolute;
+  top:-45px;
+	margin-left:-45px;
+}
+
+.FAQ-content {
+  background:#ffffff;
+  box-sizing:border-box;
+	padding:0 60px;
+}
+
+.FAQ-box-content{
+  cursor:pointer;
+	transition: transform 0.3s linear;
+} 
+
+.FAQ-box-content:hover{
+	transform:scale(1.1);
+}
+.FAQ-content-bottom-box{
+  box-sizing:border-box;
+	padding:0 12px;
+}
+.post-content p{
+	margin-bottom:0px;
+}
+#text-3 , #text-2{
+  margin-bottom:0px;
+}
+#sidebar{
+	margin-bottom:60px;
+}
+.DownloadNewPipeContent{
+  position:relative;
+  background:#e2dee0;
+	height:300px;
+}
+
+.DownloadNewPipeContent-icon{
+	position:absolute;
+  top:260px;
+  left:50%;
+}
+/* 底部边距*/
+#main {
+    padding-top: 0;
+    padding-bottom: 40px;
+}

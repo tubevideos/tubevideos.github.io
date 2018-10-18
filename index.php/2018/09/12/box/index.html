@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html class="avada-html-layout-wide avada-html-has-sticky-footer" lang="zh-CN" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>box &#8211; wordpress学习</title>
+<meta name='robots' content='noindex,follow' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="wordpress学习 &raquo; Feed" href="https://tubevideos.github.io/index.php/feed/" />
+<link rel="alternate" type="application/rss+xml" title="wordpress学习 &raquo; 评论Feed" href="https://tubevideos.github.io/index.php/comments/feed/" />
+		
+		
+		
+		
+				<link rel="alternate" type="application/rss+xml" title="wordpress学习 &raquo; box评论Feed" href="https://tubevideos.github.io/index.php/2018/09/12/box/feed/" />
+
+		<meta property="og:title" content="box"/>
+		<meta property="og:type" content="article"/>
+		<meta property="og:url" content="https://tubevideos.github.io/index.php/2018/09/12/box/"/>
+		<meta property="og:site_name" content="wordpress学习"/>
+		<meta property="og:description" content="重点就是如何调用这两个字段的值。看的懂英文的就自己查看下官方的教程 http://www.advancedcustomfields.com/resources/。下面只简单介绍下 the_field() 和 get_field() 函数。前者是直接输出字段值，后者是获取字段值以供其他函数调用。比如，我们直接输出刚才倡萌添加的文本字段 test_text，可以使用下面两种方式打印："/>
+
+									<meta property="og:image" content="https://tubevideos.github.io/wp-content/themes/Avada/assets/images/logo.png"/>
+									<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/tangym123.github.io\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='layerslider-css'  href='https://tubevideos.github.io/wp-content/plugins/LayerSlider/static/layerslider/css/layerslider.css?ver=6.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://tubevideos.github.io/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://tubevideos.github.io/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.8' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='avada-stylesheet-css'  href='https://tubevideos.github.io/wp-content/themes/Avada/assets/css/style.min.css?ver=5.6.2' type='text/css' media='all' />
+<!--[if lte IE 9]>
+<link rel='stylesheet' id='avada-IE-fontawesome-css'  href='https://tubevideos.github.io/wp-content/themes/Avada/includes/lib/assets/fonts/fontawesome/font-awesome.min.css?ver=5.6.2' type='text/css' media='all' />
+<![endif]-->
+<!--[if IE]>
+<link rel='stylesheet' id='avada-IE-css'  href='https://tubevideos.github.io/wp-content/themes/Avada/assets/css/ie.min.css?ver=5.6.2' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='fusion-dynamic-css-css'  href='https://tubevideos.github.io/wp-content/uploads/fusion-styles/78dd860bfff24812d336b50a89a4bbcd.min.css?ver=4.9.8' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var LS_Meta = {"v":"6.7.6"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/plugins/LayerSlider/static/layerslider/js/greensock.js?ver=1.19.0'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.kreaturamedia.jquery.js?ver=6.7.6'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/plugins/LayerSlider/static/layerslider/js/layerslider.transitions.js?ver=6.7.6'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.8'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.8'></script>
+<meta name="generator" content="Powered by LayerSlider 6.7.6 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
+<!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
+<link rel='https://api.w.org/' href='https://tubevideos.github.io/index.php/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://tubevideos.github.io/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://tubevideos.github.io/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel="canonical" href="https://tubevideos.github.io/index.php/2018/09/12/box/" />
+<link rel='shortlink' href='https://tubevideos.github.io/?p=431' />
+<link rel="alternate" type="application/json+oembed" href="https://tubevideos.github.io/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F12%2Fbox%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://tubevideos.github.io/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F12%2Fbox%2F&#038;format=xml" />
+<meta name="generator" content="Powered by Slider Revolution 5.4.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+		<script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+
+		
+	<script type="text/javascript">
+		var doc = document.documentElement;
+		doc.setAttribute('data-useragent', navigator.userAgent);
+	</script>
+
+	</head>
+
+<body class="post-template-default single single-post postid-431 single-format-standard fusion-image-hovers fusion-body ltr no-mobile-slidingbar no-mobile-totop mobile-logo-pos-left layout-wide-mode fusion-top-header menu-text-align-center mobile-menu-design-modern fusion-show-pagination-text fusion-header-layout-v1 avada-responsive avada-footer-fx-sticky-with-parallax-bg-image fusion-search-form-classic fusion-avatar-square">
+	<a class="skip-link screen-reader-text" href="#content">跳到内容</a>
+				<div id="wrapper" class="">
+		<div id="home" style="position:relative;top:-1px;"></div>
+		
+			<header class="fusion-header-wrapper">
+				<div class="fusion-header-v1 fusion-logo-left fusion-sticky-menu- fusion-sticky-logo- fusion-mobile-logo-  fusion-mobile-menu-design-modern">
+					<div class="fusion-header-sticky-height"></div>
+<div class="fusion-header">
+	<div class="fusion-row">
+					<div class="fusion-logo" data-margin-top="31px" data-margin-bottom="31px" data-margin-left="0px" data-margin-right="0px">
+			<a class="fusion-logo-link"  href="https://tubevideos.github.io/" >
+
+						<!-- standard logo -->
+			<img src="https://tubevideos.github.io/wp-content/themes/Avada/assets/images/logo.png" srcset="https://tubevideos.github.io/wp-content/themes/Avada/assets/images/logo.png 1x" width="" height="" alt="wordpress学习 Logo" retina_logo_url="" class="fusion-standard-logo" />
+
+			
+					</a>
+		</div>		<nav class="fusion-main-menu" aria-label="Main Menu"><ul role="menubar" id="menu-main" class="fusion-menu"><li  id="menu-item-395"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-395"  ><a  href="https://tubevideos.github.io/" class="fusion-bar-highlight" role="menuitem"><span class="menu-text">Home</span></a></li><li  id="menu-item-396"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-396"  ><a  href="https://tubevideos.github.io/index.php/faq/" class="fusion-bar-highlight" role="menuitem"><span class="menu-text">FAQ</span></a></li><li  id="menu-item-398"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-398"  ><a  href="https://tubevideos.github.io/index.php/all-posts/" class="fusion-bar-highlight" role="menuitem"><span class="menu-text">Blog</span></a></li><li  id="menu-item-397"  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-397"  ><a  href="https://tubevideos.github.io/index.php/pressfactsheet/" class="fusion-bar-highlight" role="menuitem"><span class="menu-text">Factsheet</span></a></li></ul></nav>	<div class="fusion-mobile-menu-icons">
+							<a href="#" class="fusion-icon fusion-icon-bars" aria-label="切换移动菜单" aria-expanded="false"></a>
+		
+		
+		
+			</div>
+	
+<nav class="fusion-mobile-nav-holder fusion-mobile-menu-text-align-left"></nav>
+
+					</div>
+</div>
+				</div>
+				<div class="fusion-clearfix"></div>
+			</header>
+					
+		
+		<div id="sliders-container">
+					</div>
+				
+		
+					<div class="fusion-page-title-bar fusion-page-title-bar-breadcrumbs fusion-page-title-bar-left">
+	<div class="fusion-page-title-row">
+		<div class="fusion-page-title-wrapper">
+			<div class="fusion-page-title-captions">
+
+				
+				
+			</div>
+
+												<div class="fusion-page-title-secondary">
+						<div class="fusion-breadcrumbs"><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://tubevideos.github.io"><span itemprop="title">主页</span></a></span><span class="fusion-breadcrumb-sep">/</span><span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a itemprop="url" href="https://tubevideos.github.io/index.php/category/uncategorized/"><span itemprop="title">未分类</span></a></span><span class="fusion-breadcrumb-sep">/</span><span class="breadcrumb-leaf">box</span></div>					</div>
+							
+		</div>
+	</div>
+</div>
+		
+		
+						<main id="main" role="main" class="clearfix" style="">
+			<div class="fusion-row" style="">
+<section id="content" style="width: 100%;">
+
+		
+			
+		<div class="single-navigation clearfix">
+			<a href="https://tubevideos.github.io/index.php/2018/09/12/zb/" rel="prev">上一页</a>			<a href="https://tubevideos.github.io/index.php/2018/09/12/fu/" rel="next">下一页</a>		</div> 
+		
+		<p>左边图片：<img src="" /></p><p>头部标题：</p><p>icon标签：<img src=""><p>好评数字：</p><p>icon标签：<img src=""><p>用户数字：</p><p>生产工具：</p><p>提供方：</p>		
+						<article id="post-431" class="post post-431 type-post status-publish format-standard hentry category-uncategorized">
+						
+																								
+															<h1 class="entry-title fusion-post-title">box</h1>										<div class="post-content">
+												<div class="fusion-fullwidth fullwidth-box nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;'><div class="fusion-builder-row fusion-row"><div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1  fusion-one-full fusion-column-first fusion-column-last 1_1"  style='margin-top:0px;margin-bottom:20px;'>
+					<div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"  data-bg-url="">
+						<div class="fusion-text"><p>重点就是如何调用这两个字段的值。看的懂英文的就自己查看下官方的教程 <a href="http://www.advancedcustomfields.com/resources/" target="_blank" rel="nofollow noopener">http://www.advancedcustomfields.com/resources/</a>。</p>
+<p>下面只简单介绍下 the_field() 和 get_field() 函数。前者是直接输出字段值，后者是获取字段值以供其他函数调用。</p>
+<p>比如，我们直接输出刚才倡萌添加的文本字段 test_text，可以使用下面两种方式打印：</p>
+</div><div class="fusion-clearfix"></div>
+
+					</div>
+				</div></div></div>
+			</div>
+
+												<div class="fusion-meta-info"><div class="fusion-meta-info-wrapper">By <span class="vcard"><span class="fn"><a href="https://tubevideos.github.io/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a></span></span><span class="fusion-inline-sep">|</span><span class="updated rich-snippet-hidden">2018-09-12T11:44:29+00:00</span><span>九月 12th, 2018</span><span class="fusion-inline-sep">|</span><a href="https://tubevideos.github.io/index.php/category/uncategorized/" rel="category tag">未分类</a><span class="fusion-inline-sep">|</span><span class="fusion-comments"><a href="https://tubevideos.github.io/index.php/2018/09/12/box/#respond">0 条评论</a></span></div></div>													<div class="fusion-sharing-box fusion-single-sharing-box share-box">
+		<h4>选择你的平台分享这篇文章</h4>
+		<div class="fusion-social-networks"><div class="fusion-social-networks-wrapper"><a  class="fusion-social-network-icon fusion-tooltip fusion-facebook fusion-icon-facebook" style="color:#bebdbd;" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F12%2Fbox%2F&amp;t=box" target="_blank" data-placement="top" data-title="Facebook" data-toggle="tooltip" title="Facebook"><span class="screen-reader-text">Facebook</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-twitter fusion-icon-twitter" style="color:#bebdbd;" href="https://twitter.com/share?text=box&amp;url=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F12%2Fbox%2F" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Twitter" data-toggle="tooltip" title="Twitter"><span class="screen-reader-text">Twitter</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-linkedin fusion-icon-linkedin" style="color:#bebdbd;" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://tubevideos.github.io/index.php/2018/09/12/box/&amp;title=box&amp;summary=%E9%87%8D%E7%82%B9%E5%B0%B1%E6%98%AF%E5%A6%82%E4%BD%95%E8%B0%83%E7%94%A8%E8%BF%99%E4%B8%A4%E4%B8%AA%E5%AD%97%E6%AE%B5%E7%9A%84%E5%80%BC%E3%80%82%E7%9C%8B%E7%9A%84%E6%87%82%E8%8B%B1%E6%96%87%E7%9A%84%E5%B0%B1%E8%87%AA%E5%B7%B1%E6%9F%A5%E7%9C%8B%E4%B8%8B%E5%AE%98%E6%96%B9%E7%9A%84%E6%95%99%E7%A8%8B%20http%3A%2F%2Fwww.advancedcustomfields.com%2Fresources%2F%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E9%9D%A2%E5%8F%AA%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D%E4%B8%8B%20the_field%28%29%20%E5%92%8C%20get_field%28%29%20%E5%87%BD%E6%95%B0%E3%80%82%E5%89%8D%E8%80%85%E6%98%AF%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%87%BA%E5%AD%97%E6%AE%B5%E5%80%BC%EF%BC%8C%E5%90%8E%E8%80%85%E6%98%AF%E8%8E%B7%E5%8F%96%E5%AD%97%E6%AE%B5%E5%80%BC%E4%BB%A5%E4%BE%9B%E5%85%B6%E4%BB%96%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%82%0D%0A%0D%0A%E6%AF%94%E5%A6%82%EF%BC%8C%E6%88%91%E4%BB%AC%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%87%BA%E5%88%9A%E6%89%8D%E5%80%A1%E8%90%8C%E6%B7%BB%E5%8A%A0%E7%9A%84%E6%96%87%E6%9C%AC%E5%AD%97%E6%AE%B5%20test_text%EF%BC%8C%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E4%B8%8B%E9%9D%A2%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F%E6%89%93%E5%8D%B0%EF%BC%9A" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="LinkedIn" data-toggle="tooltip" title="LinkedIn"><span class="screen-reader-text">LinkedIn</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-reddit fusion-icon-reddit" style="color:#bebdbd;" href="http://reddit.com/submit?url=https://tubevideos.github.io/index.php/2018/09/12/box/&amp;title=box" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Reddit" data-toggle="tooltip" title="Reddit"><span class="screen-reader-text">Reddit</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-whatsapp fusion-icon-whatsapp" style="color:#bebdbd;" href="https://api.whatsapp.com/send?text=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F12%2Fbox%2F" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Whatsapp" data-toggle="tooltip" title="Whatsapp"><span class="screen-reader-text">Whatsapp</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-googleplus fusion-icon-googleplus" style="color:#bebdbd;" href="https://plus.google.com/share?url=https://tubevideos.github.io/index.php/2018/09/12/box/" onclick="javascript:window.open(this.href,&#039;&#039;, &#039;menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600&#039;);return false;" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Google+" data-toggle="tooltip" title="Google+"><span class="screen-reader-text">Google+</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-tumblr fusion-icon-tumblr" style="color:#bebdbd;" href="http://www.tumblr.com/share/link?url=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F12%2Fbox%2F&amp;name=box&amp;description=%E9%87%8D%E7%82%B9%E5%B0%B1%E6%98%AF%E5%A6%82%E4%BD%95%E8%B0%83%E7%94%A8%E8%BF%99%E4%B8%A4%E4%B8%AA%E5%AD%97%E6%AE%B5%E7%9A%84%E5%80%BC%E3%80%82%E7%9C%8B%E7%9A%84%E6%87%82%E8%8B%B1%E6%96%87%E7%9A%84%E5%B0%B1%E8%87%AA%E5%B7%B1%E6%9F%A5%E7%9C%8B%E4%B8%8B%E5%AE%98%E6%96%B9%E7%9A%84%E6%95%99%E7%A8%8B%20http%3A%2F%2Fwww.advancedcustomfields.com%2Fresources%2F%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E9%9D%A2%E5%8F%AA%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D%E4%B8%8B%20the_field%28%29%20%E5%92%8C%20get_field%28%29%20%E5%87%BD%E6%95%B0%E3%80%82%E5%89%8D%E8%80%85%E6%98%AF%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%87%BA%E5%AD%97%E6%AE%B5%E5%80%BC%EF%BC%8C%E5%90%8E%E8%80%85%E6%98%AF%E8%8E%B7%E5%8F%96%E5%AD%97%E6%AE%B5%E5%80%BC%E4%BB%A5%E4%BE%9B%E5%85%B6%E4%BB%96%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%82%0D%0A%0D%0A%E6%AF%94%E5%A6%82%EF%BC%8C%E6%88%91%E4%BB%AC%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%87%BA%E5%88%9A%E6%89%8D%E5%80%A1%E8%90%8C%E6%B7%BB%E5%8A%A0%E7%9A%84%E6%96%87%E6%9C%AC%E5%AD%97%E6%AE%B5%20test_text%EF%BC%8C%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E4%B8%8B%E9%9D%A2%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F%E6%89%93%E5%8D%B0%EF%BC%9A" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Tumblr" data-toggle="tooltip" title="Tumblr"><span class="screen-reader-text">Tumblr</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-pinterest fusion-icon-pinterest" style="color:#bebdbd;" href="http://pinterest.com/pin/create/button/?url=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F12%2Fbox%2F&amp;description=%E9%87%8D%E7%82%B9%E5%B0%B1%E6%98%AF%E5%A6%82%E4%BD%95%E8%B0%83%E7%94%A8%E8%BF%99%E4%B8%A4%E4%B8%AA%E5%AD%97%E6%AE%B5%E7%9A%84%E5%80%BC%E3%80%82%E7%9C%8B%E7%9A%84%E6%87%82%E8%8B%B1%E6%96%87%E7%9A%84%E5%B0%B1%E8%87%AA%E5%B7%B1%E6%9F%A5%E7%9C%8B%E4%B8%8B%E5%AE%98%E6%96%B9%E7%9A%84%E6%95%99%E7%A8%8B%20http%3A%2F%2Fwww.advancedcustomfields.com%2Fresources%2F%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E9%9D%A2%E5%8F%AA%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D%E4%B8%8B%20the_field%28%29%20%E5%92%8C%20get_field%28%29%20%E5%87%BD%E6%95%B0%E3%80%82%E5%89%8D%E8%80%85%E6%98%AF%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%87%BA%E5%AD%97%E6%AE%B5%E5%80%BC%EF%BC%8C%E5%90%8E%E8%80%85%E6%98%AF%E8%8E%B7%E5%8F%96%E5%AD%97%E6%AE%B5%E5%80%BC%E4%BB%A5%E4%BE%9B%E5%85%B6%E4%BB%96%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%82%0D%0A%0D%0A%E6%AF%94%E5%A6%82%EF%BC%8C%E6%88%91%E4%BB%AC%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%87%BA%E5%88%9A%E6%89%8D%E5%80%A1%E8%90%8C%E6%B7%BB%E5%8A%A0%E7%9A%84%E6%96%87%E6%9C%AC%E5%AD%97%E6%AE%B5%20test_text%EF%BC%8C%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E4%B8%8B%E9%9D%A2%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F%E6%89%93%E5%8D%B0%EF%BC%9A&amp;media=" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Pinterest" data-toggle="tooltip" title="Pinterest"><span class="screen-reader-text">Pinterest</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-vk fusion-icon-vk" style="color:#bebdbd;" href="http://vkontakte.ru/share.php?url=https%3A%2F%2Ftangym123.github.io%2Fwordpress%2Findex.php%2F2018%2F09%2F12%2Fbox%2F&amp;title=box&amp;description=%E9%87%8D%E7%82%B9%E5%B0%B1%E6%98%AF%E5%A6%82%E4%BD%95%E8%B0%83%E7%94%A8%E8%BF%99%E4%B8%A4%E4%B8%AA%E5%AD%97%E6%AE%B5%E7%9A%84%E5%80%BC%E3%80%82%E7%9C%8B%E7%9A%84%E6%87%82%E8%8B%B1%E6%96%87%E7%9A%84%E5%B0%B1%E8%87%AA%E5%B7%B1%E6%9F%A5%E7%9C%8B%E4%B8%8B%E5%AE%98%E6%96%B9%E7%9A%84%E6%95%99%E7%A8%8B%20http%3A%2F%2Fwww.advancedcustomfields.com%2Fresources%2F%E3%80%82%0D%0A%0D%0A%E4%B8%8B%E9%9D%A2%E5%8F%AA%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D%E4%B8%8B%20the_field%28%29%20%E5%92%8C%20get_field%28%29%20%E5%87%BD%E6%95%B0%E3%80%82%E5%89%8D%E8%80%85%E6%98%AF%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%87%BA%E5%AD%97%E6%AE%B5%E5%80%BC%EF%BC%8C%E5%90%8E%E8%80%85%E6%98%AF%E8%8E%B7%E5%8F%96%E5%AD%97%E6%AE%B5%E5%80%BC%E4%BB%A5%E4%BE%9B%E5%85%B6%E4%BB%96%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%82%0D%0A%0D%0A%E6%AF%94%E5%A6%82%EF%BC%8C%E6%88%91%E4%BB%AC%E7%9B%B4%E6%8E%A5%E8%BE%93%E5%87%BA%E5%88%9A%E6%89%8D%E5%80%A1%E8%90%8C%E6%B7%BB%E5%8A%A0%E7%9A%84%E6%96%87%E6%9C%AC%E5%AD%97%E6%AE%B5%20test_text%EF%BC%8C%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E4%B8%8B%E9%9D%A2%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F%E6%89%93%E5%8D%B0%EF%BC%9A" target="_blank" rel="noopener noreferrer" data-placement="top" data-title="Vk" data-toggle="tooltip" title="Vk"><span class="screen-reader-text">Vk</span></a><a  class="fusion-social-network-icon fusion-tooltip fusion-mail fusion-icon-mail fusion-last-social-icon" style="color:#bebdbd;" href="mailto:/?subject=box&amp;body=https://tubevideos.github.io/index.php/2018/09/12/box/" target="_self" rel="noopener noreferrer" data-placement="top" data-title="Email" data-toggle="tooltip" title="Email"><span class="screen-reader-text">Email</span></a><div class="fusion-clearfix"></div></div></div>	</div>
+														<section class="about-author">
+																						<div class="fusion-title fusion-title-size-two sep-" style="margin-top:0px;margin-bottom:31px;">
+					<h2 class="title-heading-left">
+						关于作者: 						<a href="https://tubevideos.github.io/index.php/author/tangyiming/" title="由tangyiming发布" rel="author">tangyiming</a>																	</h2>
+					<div class="title-sep-container">
+						<div class="title-sep sep-"></div>
+					</div>
+				</div>
+										<div class="about-author-container">
+							<div class="avatar">
+								<img alt='' src='http://2.gravatar.com/avatar/540d12168e7488f77aadd3687e9d54f6?s=72&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/540d12168e7488f77aadd3687e9d54f6?s=144&#038;d=mm&#038;r=g 2x' class='avatar avatar-72 photo' height='72' width='72' />							</div>
+							<div class="description">
+															</div>
+						</div>
+					</section>
+								<section class="related-posts single-related-posts">
+					<div class="fusion-title fusion-title-size-two sep-" style="margin-top:0px;margin-bottom:31px;">
+					<h2 class="title-heading-left">
+						相关文章					</h2>
+					<div class="title-sep-container">
+						<div class="title-sep sep-"></div>
+					</div>
+				</div>
+				
+	
+	
+	
+	
+				<div class="fusion-carousel" data-imagesize="fixed" data-metacontent="no" data-autoplay="no" data-touchscroll="no" data-columns="5" data-itemmargin="44px" data-itemwidth="180">
+		<div class="fusion-carousel-positioner">
+			<ul class="fusion-carousel-holder">
+																							<li class="fusion-carousel-item" style="max-width: 300px;">
+						<div class="fusion-carousel-item-wrapper">
+							
+
+<div  class="fusion-image-wrapper fusion-image-size-fixed" aria-haspopup="true">
+	
+	
+		
+	
+						<div class="fusion-placeholder-image" data-origheight="150" data-origwidth="1500px" style="height:150px;width:1500px;"></div>
+		
+	
+
+		<div class="fusion-rollover">
+	<div class="fusion-rollover-content">
+
+														<a class="fusion-rollover-link" href="https://tubevideos.github.io/index.php/2018/09/12/fu/">fu</a>
+			
+														
+								
+								
+													
+				
+												<h4 class="fusion-rollover-title">
+					<a href="https://tubevideos.github.io/index.php/2018/09/12/fu/">
+						fu					</a>
+				</h4>
+			
+								
+		
+				<a class="fusion-link-wrapper" href="https://tubevideos.github.io/index.php/2018/09/12/fu/" aria-label="fu"></a>
+	</div>
+</div>
+
+	
+</div>
+													</div><!-- fusion-carousel-item-wrapper -->
+					</li>
+							</ul><!-- fusion-carousel-holder -->
+										<div class="fusion-carousel-nav">
+					<span class="fusion-nav-prev"></span>
+					<span class="fusion-nav-next"></span>
+				</div>
+			
+		</div><!-- fusion-carousel-positioner -->
+	</div><!-- fusion-carousel -->
+</section><!-- related-posts -->
+
+
+																		
+
+
+
+		<div id="respond" class="comment-respond">
+		<h2 id="reply-title" class="comment-reply-title">留言 <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://tubevideos.github.io/index.php/2018/09/12/box/#respond" style="display:none;">取消回复</a></small></h2>			<form action="https://tubevideos.github.io/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<div id="comment-textarea"><label class="screen-reader-text" for="comment">留言</label><textarea name="comment" id="comment" cols="45" rows="8" aria-required="true" required="required" tabindex="0" class="textarea-comment" placeholder="评论内容..."></textarea></div><div id="comment-input"><input id="author" name="author" type="text" value="" placeholder="昵称(必填)" size="30" aria-required='true' required='required' aria-label="名称"/>
+<input id="email" name="email" type="email" value="" placeholder="Email (必填)" size="30"  aria-required='true' required='required' aria-label="Email"/>
+<input id="url" name="url" type="url" value="" placeholder="网站" size="30" aria-label="URL" /></div>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /><label for="wp-comment-cookies-consent">下次我发表评论时，请在此浏览器中保存我的姓名，电子邮件和网站。</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="comment-submit" class="fusion-button fusion-button-default fusion-button-default-size" value="发表评论" /> <input type='hidden' name='comment_post_ID' value='431' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p>			</form>
+			</div><!-- #respond -->
+														</article>
+		</section>
+					
+				</div>  <!-- fusion-row -->
+			</main>  <!-- #main -->
+			
+			
+			
+										
+				<div class="fusion-footer">
+					
+	
+	<footer id="footer" class="fusion-footer-copyright-area">
+		<div class="fusion-row">
+			<div class="fusion-copyright-content">
+
+				<div class="fusion-copyright-notice">
+		<div>
+		<div class="container">
+            <div class="footer-links">
+                <span id="copyright-span" style="padding:0 12px;">Copyright © Team NewPipe.</span>
+                <span   style="padding:0 12px;"><a href="http://localhost/press/contact/">Contact</a></span>
+                <span   style="padding:0 12px;"><a href="http://localhost/legal/license/">Licensing</a></span>
+                <span   style="padding:0 12px;"><a href="http://localhost/legal/privacy/">Privacy Policy</a></span>
+            </div>
+        </div>	</div>
+</div>
+<div class="fusion-social-links-footer">
+	</div>
+
+			</div> <!-- fusion-fusion-copyright-content -->
+		</div> <!-- fusion-row -->
+	</footer> <!-- #footer -->
+				</div> <!-- fusion-footer -->
+			
+								</div> <!-- wrapper -->
+
+								<a class="fusion-one-page-text-link fusion-page-load-link"></a>
+
+						<script type="text/javascript">
+				jQuery( document ).ready( function() {
+					var ajaxurl = 'https://tubevideos.github.io/wp-admin/admin-ajax.php';
+					if ( 0 < jQuery( '.fusion-login-nonce' ).length ) {
+						jQuery.get( ajaxurl, { 'action': 'fusion_login_nonce' }, function( response ) {
+							jQuery( '.fusion-login-nonce' ).html( response );
+						});
+					}
+				});
+				</script>
+				<link rel='stylesheet' id='so-css-Avada-css'  href='https://tubevideos.github.io/wp-content/uploads/so-css/so-css-Avada.css?ver=1537096910' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/tangym123.github.io\/wordpress\/index.php\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u8bf7\u9a8c\u8bc1\u60a8\u4e0d\u662f\u4e00\u4e2a\u673a\u5668\u4eba\u3002"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.3'></script>
+<!--[if IE 9]>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/themes/Avada/includes/lib/assets/min/js/general/fusion-ie9.js?ver=1'></script>
+<![endif]-->
+<script type='text/javascript' src='https://tubevideos.github.io/wp-includes/js/comment-reply.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-content/uploads/fusion-scripts/dd2072c96571ebb215987b9dc62a1607.min.js'></script>
+<script type='text/javascript' src='https://tubevideos.github.io/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+	</body>
+</html>
