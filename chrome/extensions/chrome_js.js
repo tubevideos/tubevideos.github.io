@@ -1,11 +1,10 @@
 
 $(document).ready(function(){
-   SIDEBAR();
    BUG();
    HEARD();
 })
    
- function HEARD(){
+ function HEARD(){//头部添加
     var title = $('.O-j-k>.O-j');
     if(title.length === 0){
         setTimeout("HEARD()",3000);
@@ -15,15 +14,6 @@ $(document).ready(function(){
      
  }
  
-  function SIDEBAR(){
- 	var sidebar = $('.F-n-J>.HWJfBb');
- 	if(sidebar.length === 0){
- 		setTimeout("SIDEBAR()",3000)
- 	}else{
- 		$('.HWJfBb>.gpx3nd').remove();
- 		$('.HWJfBb>.si3MDf').remove();
- 	}
- }
 
 function BUG(){
     var tmp = $('.h-e-f-Ra-c');
@@ -33,11 +23,25 @@ function BUG(){
 		if(tmp.length === 0 ){
 			 setTimeout("BUG()",3000);
 		}else{
-			 BUTTON();
-			 URL();
+			 BUTTON();//加button按钮
+			 URL();//为button加链接
 		}
+	}else{
+		 SIDEBAR();//去除dom
 	}
 }
+
+  function SIDEBAR(){//去除dom
+ 	var sidebar = $('.F-n-J>.HWJfBb');
+ 	if(sidebar.length === 0){
+ 		setTimeout("SIDEBAR()",3000)
+ 	}else{
+ 		$('.HWJfBb>.gpx3nd').remove();
+ 		$('.HWJfBb>.si3MDf').remove();
+ 	}
+ }
+
+
 function BUTTON(){
    $('.h-e-f-Ra-c').html('<div role="button" class="dd-Va g-c-wb g-eg-ua-Uc-c-za g-c g-c-Sc-ci" aria-label="Remove from Chrome" tabindex="0" style="user-select: none;"><div class="g-c-Hf"><div class="g-c-x"><div class="g-c-R  webstore-test-button-label">添加至 Chrome</div></div></div></div>')
 }
