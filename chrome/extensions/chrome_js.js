@@ -54,8 +54,8 @@ function footer(){//其他页尾部添加
  		setTimeout("sidebar()",1000)
  	}else{
  		$('.HWJfBb>.gpx3nd').remove();
- 		//$('.HWJfBb>.si3MDf').remove();
-		$('.HWJfBb>.yrk3fc').remove();
+ 		$('.HWJfBb>.si3MDf').remove();
+		//$('.HWJfBb>.yrk3fc').remove();
  	}
  }
 
