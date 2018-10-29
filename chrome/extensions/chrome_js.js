@@ -33,9 +33,10 @@ function BUG(){
  function INDEX_FOOTER(){//首页尾部添加
 	 var footer = $('.F-ia-k');
 	 if(footer.length === 0){
-		 setTimeout("FOOTER()",3000);
+		 setTimeout("INDEX_FOOTER()",3000);
 	 }else{
 		 $('.F-ia-k').append('<div class="fusion-footer"><footer id="footer" class="fusion-footer-copyright-area" style="padding: 18px 10px 12px;border-top: 1px solid #4b4c4d;background: #282a2b;border-top: 1px solid #4b4c4d;"><div class="fusion-row" style="max-width: 1200px;padding-left: 0px;padding-right: 0px; margin: 0 auto;zoom: 1;"><div class="fusion-copyright-content"><div class="fusion-copyright-notice" style="padding-bottom: 0px;"><div style="color: #ffffff; font: 13px/20px PTSansRegular,Arial,Helvetica,sans-serif;font-weight: 400;">Copyright 2012 - 2018 Avada | All Rights Reserved | Powered by<a href="http://wordpress.org" style="color: #ffffff;text-decoration:none;">WordPress</a> |<a href="http://theme-fusion.com" style="color: #ffffff;text-decoration:none;">Theme Fusion</a></div></div></div></div></footer></div>');
+   
    }
 }
 
