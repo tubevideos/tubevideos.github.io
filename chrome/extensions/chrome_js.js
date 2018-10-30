@@ -51,6 +51,7 @@ function header() {
 			function () {
 				$(this).css("color","#5f6368");
 			}
+		);
 	}
 }
 
