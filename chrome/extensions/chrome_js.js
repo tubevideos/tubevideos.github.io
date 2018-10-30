@@ -1,8 +1,7 @@
-localStorage.setItem('modify', 'false');
 // 回退按钮
 window.addEventListener('popstate', function(){
     modifyView();
-    localStorage.setItem('modify', 'true');
+    window.modify = true;
 });
 // 添加history
 (function(history){
@@ -12,19 +11,17 @@ window.addEventListener('popstate', function(){
             history.onpushstate({state: state});
         }
         modifyView();
-        localStorage.setItem('modify', 'true');
+        window.modify = true;
         return pushState.apply(history, arguments);
     }
 })(window.history);
 // 页面加载
 $(window).ready(function(){
-    var modify = localStorage.getItem('modify');
-    if(modify === 'true') {
-        localStorage.setItem('modify', 'false');
+    if(window.modify) {
+        window.modify = false;
     } else {
         modifyView();
     }
-
 });
 
 
@@ -36,11 +33,11 @@ function modifyView(){
     var str = window.location.href;
     var arr = str.split("/");
     if(arr[4]==='detail'){// 详情页
-        footer();//其他页尾部添加
+        detailFooter();//其他页尾部添加
         button();//加button按钮
     } else {
         sidebar();//去除dom
-        index_footer();//首页尾部添加
+        footer();//首页尾部添加
     }
 }
 
@@ -49,16 +46,16 @@ function modifyView(){
  */
 function header() {
     // 判断header是否已经添加
-    
-	var title = $('.O-j-k>.O-j');
-	if(title.length === 0){
-		setTimeout("header()",1000);
-	}else{
-		$('.O-j>.O-j-p-J').remove();
-		$('.O-j-gb>.A8AIPb>.PNF6le').html('Chrome插件网');
-		$('.O-j-k>.O-j').append('<div style="float:right; width:638px;height:100%;margin-right:80px; flex-direction:row; display:inline-flex; justify-content:space-between; align-items:center;"><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">首页</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">分类</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">推荐</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">百科</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px;">排行</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px;">新闻中心</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px;">关于我们</span></a></div></div>');
-	}
-    
+    if($('#my_navigate').length !== 0){
+        var title = $('.O-j-k>.O-j');
+        if(title.length === 0){
+            setTimeout("header()",1000);
+        }else{
+            $('.O-j>.O-j-p-J').remove();
+            $('.O-j-gb>.A8AIPb>.PNF6le').html('Chrome插件网');
+            $('.O-j-k>.O-j').append('<div id="my_navigate" style="float:right; width:638px;height:100%;margin-right:80px; flex-direction:row; display:inline-flex; justify-content:space-between; align-items:center;"><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">首页</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">分类</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">推荐</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">百科</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px;">排行</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px;">新闻中心</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px;">关于我们</span></a></div></div>');
+        }
+    }
 }
 
 /**
@@ -78,22 +75,22 @@ function sidebar(){//去除dom
 /**
  * 首页尾部添加
  */
-function indexFooter(){
+function footer(){
     var footer = $('.F-ia-k');
     if(footer.length === 0){
-        setTimeout("index_footer()",1000);
+        setTimeout("footer()",1000);
     }else{
         $('.F-ia-k').append('<div class="fusion-footer"><footer id="footer" class="fusion-footer-copyright-area" style="padding: 18px 10px 12px;border-top: 1px solid #4b4c4d;background: #282a2b;border-top: 1px solid #4b4c4d;"><div class="fusion-row" style="max-width: 1200px;padding-left: 0px;padding-right: 0px; margin: 0 auto;zoom: 1;"><div class="fusion-copyright-content"><div class="fusion-copyright-notice" style="padding-bottom: 0px;"><div style="color: #ffffff; font: 13px/20px PTSansRegular,Arial,Helvetica,sans-serif;font-weight: 400;">Copyright 2012 - 2018 Avada | All Rights Reserved | Powered by<a href="http://wordpress.org" style="color: #ffffff;text-decoration:none;">WordPress</a> |<a href="http://theme-fusion.com" style="color: #ffffff;text-decoration:none;">Theme Fusion</a></div></div></div></div></footer></div>');
     }
 }
 
 /**
- * 其他页尾部添加
+ * 详情页尾部添加
  */
-function footer(){
+function detailFooter(){
     var footer = $('.e-f-ra-gj');
     if(footer.length === 0){
-        setTimeout("footer()",3000);
+        setTimeout("detailFooter()",3000);
     }else{
         $('.e-f-ra-gj').after('<div class="fusion-footer"><footer id="footer" class="fusion-footer-copyright-area" style="padding: 18px 10px 12px;border-top: 1px solid #4b4c4d;background: #282a2b;border-top: 1px solid #4b4c4d;"><div class="fusion-row" style="max-width: 1200px;padding-left: 0px;padding-right: 0px; margin: 0 auto;zoom: 1;"><div class="fusion-copyright-content"><div class="fusion-copyright-notice" style="padding-bottom: 0px;"><div style="color: #ffffff; font: 13px/20px PTSansRegular,Arial,Helvetica,sans-serif;font-weight: 400;">Copyright 2012 - 2018 Avada | All Rights Reserved | Powered by<a href="http://wordpress.org" style="color: #ffffff;text-decoration:none;">WordPress</a> |<a href="http://theme-fusion.com" style="color: #ffffff;text-decoration:none;">Theme Fusion</a></div></div></div></div></footer></div>');
     }
