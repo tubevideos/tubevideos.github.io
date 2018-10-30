@@ -1,3 +1,6 @@
+window.addEventListener('navigate', function(){
+	alert('changeURL')
+});
 
 $(window).load(function(){
    bug();
