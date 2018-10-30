@@ -48,7 +48,6 @@ function header() {
 }
 
 function headerHover(){//为title导航添加鼠标悬乎效果
-	if($('#my_navigate').length != 0){
 		$(".O-j-gb>.A8AIPb>.PNF6lea").hover(
 			function () {
 				$(this).css("color","#1a73e8");
@@ -57,7 +56,6 @@ function headerHover(){//为title导航添加鼠标悬乎效果
 				$(this).css("color","#5f6368");
 			}
 		);
-	}
 }
 
 
