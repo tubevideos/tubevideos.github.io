@@ -44,14 +44,7 @@ function header() {
         $('.O-j>.O-j-p-J').remove();
         $('.O-j-gb>.A8AIPb>.PNF6le').html('Chrome插件网');
         $('.O-j-k>.O-j').append('<div id="my_navigate" style="float:right; width:638px;height:100%;margin-right:80px; flex-direction:row; display:inline-flex; justify-content:space-between; align-items:center;"><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px; color:#5f6368;">首页</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px; color:#5f6368;">分类</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px; color:#5f6368;">推荐</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px; color:#5f6368;">百科</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px; color:#5f6368;">排行</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px; color:#5f6368;">新闻中心</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px; color:#5f6368;">关于我们</span></a></div></div>');
-		$(".O-j-gb>.A8AIPb>.PNF6lea").hover(
-			function () {
-				$(this).css("color","#1a73e8");
-			},
-			function () {
-				$(this).css("color","#5f6368");
-			}
-		);
+		headerHover()//悬浮效果
 	}
 }
 
