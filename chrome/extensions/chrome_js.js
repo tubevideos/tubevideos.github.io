@@ -1,7 +1,8 @@
-
+var isModify = false;
 // 回退按钮
 window.addEventListener('popstate', function(){
     modifyView();
+    isModify = true;
 });
 // 添加history
 (function(history){
@@ -11,13 +12,18 @@ window.addEventListener('popstate', function(){
             history.onpushstate({state: state});
         }
         modifyView();
+        isModify = true;
         return pushState.apply(history, arguments);
     }
 })(window.history);
 // 页面加载
 $(window).ready(function(){
-	header();
-   modifyView(); 
+    if(isModify) {
+        isModify = false;
+    } else {
+        modifyView();
+    }
+    
 });
 
 
@@ -25,7 +31,7 @@ $(window).ready(function(){
  *  修改view
  */
 function modifyView(){
-    
+    header();
     var str = window.location.href;
     var arr = str.split("/");
     if(arr[4]==='detail'){// 详情页
@@ -141,8 +147,3 @@ function downloadAlert(){
         }
     );
 }
-
-
-
-
-
