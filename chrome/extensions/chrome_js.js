@@ -1,27 +1,11 @@
 // 回退按钮
 window.addEventListener('popstate', function(){
     modifyView();
-    window.modify = true;
 });
-// 添加history
-(function(history){
-    var pushState = history.pushState;
-    history.pushState = function(state) {
-        if (typeof history.onpushstate == "function") {
-            history.onpushstate({state: state});
-        }
-        modifyView();
-        window.modify = true;
-        return pushState.apply(history, arguments);
-    }
-})(window.history);
+
 // 页面加载
 $(window).ready(function(){
-    if(window.modify) {
-        window.modify = false;
-    } else {
-        modifyView();
-    }
+    modifyView();
 });
 
 
