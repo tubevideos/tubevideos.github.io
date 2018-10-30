@@ -1,13 +1,13 @@
 
 // 添加history
 (function(history){
-    var replaceState = history.replaceState;
-    history.replaceState = function(state) {
-        if (typeof history.replaceState == "function") {
-            history.replaceState({state: state});
+    var pushState = history.pushState;
+    history.pushState = function(state) {
+        if (typeof history.onpushstate == "function") {
+            history.onpushstate({state: state});
         }
         alert('123');
-        return replaceState.apply(history, arguments);
+        return pushState.apply(history, arguments);
     }
 })(window.history);
 // 页面加载
