@@ -6,7 +6,7 @@
         if (typeof history.onpushstate == "function") {
             history.onpushstate({state: state});
         }
-        alert(arguments[0] + '  '  + arguments[1] + '  '  + arguments[2]);
+        modifyView(arguments[2]);
         return pushState.apply(history, arguments);
     }
 })(window.history);
@@ -19,9 +19,8 @@ $(window).ready(function(){
 /**
  *  修改view
  */
-function modifyView(){
+function modifyView(str){
     header();
-    var str = window.location.href;
     var arr = str.split("/");
     if(arr[4]==='detail'){// 详情页
         detailFooter();//其他页尾部添加
@@ -37,16 +36,16 @@ function modifyView(){
  */
 function header() {
     // 判断header是否已经添加
-    
-	var title = $('.O-j-k>.O-j');
-	if(title.length === 0){
-		setTimeout("header()",1000);
-	}else{
-		$('.O-j>.O-j-p-J').remove();
-		$('.O-j-gb>.A8AIPb>.PNF6le').html('Chrome插件网');
-		$('.O-j-k>.O-j').append('<div id="my_navigate" style="float:right; width:638px;height:100%;margin-right:80px; flex-direction:row; display:inline-flex; justify-content:space-between; align-items:center;"><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">首页</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">分类</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">推荐</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">百科</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px;">排行</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px;">新闻中心</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px;">关于我们</span></a></div></div>');
-	}
-    
+
+    var title = $('.O-j-k>.O-j');
+    if(title.length === 0){
+        setTimeout("header()",1000);
+    }else{
+        $('.O-j>.O-j-p-J').remove();
+        $('.O-j-gb>.A8AIPb>.PNF6le').html('Chrome插件网');
+        $('.O-j-k>.O-j').append('<div id="my_navigate" style="float:right; width:638px;height:100%;margin-right:80px; flex-direction:row; display:inline-flex; justify-content:space-between; align-items:center;"><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">首页</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">分类</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">推荐</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#"><span class="PNF6lea" style="font-size:16px;">百科</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px;">排行</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px;">新闻中心</span></a></div><div class="O-j-gb"><a class="A8AIPb" href="#" ><span class="PNF6lea" style="font-size:16px;">关于我们</span></a></div></div>');
+    }
+
 }
 
 /**
