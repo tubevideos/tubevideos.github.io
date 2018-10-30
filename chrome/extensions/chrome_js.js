@@ -10,12 +10,13 @@ window.addEventListener('popstate', function(){
         if (typeof history.onpushstate == "function") {
             history.onpushstate({state: state});
         }
-        //modifyView();
+        modifyView();
         return pushState.apply(history, arguments);
     }
 })(window.history);
 // 页面加载
 $(window).ready(function(){
+	header();
    modifyView(); 
 });
 
@@ -24,7 +25,7 @@ $(window).ready(function(){
  *  修改view
  */
 function modifyView(){
-    header();
+    
     var str = window.location.href;
     var arr = str.split("/");
     if(arr[4]==='detail'){// 详情页
