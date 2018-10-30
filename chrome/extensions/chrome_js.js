@@ -20,7 +20,6 @@ $(window).ready(function(){
  */
 function modifyView(str){
     header();
-	headerHover();
     var arr = str.split("/");
     if(arr[4]==='detail'){// 详情页
         detailFooter();//其他页尾部添加
