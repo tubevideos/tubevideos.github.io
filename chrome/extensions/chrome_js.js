@@ -23,7 +23,7 @@ $(window).ready(function(){
  *  修改view
  */
 function modifyView(){
-    modifyHeader();
+    header();
     var str = window.location.href;
     var arr = str.split("/");
     if(arr[4]==='detail'){// 详情页
