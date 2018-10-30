@@ -1,8 +1,8 @@
-sessionStorage.setItem('modify', 'false');
+localStorage.setItem('modify', 'false');
 // 回退按钮
 window.addEventListener('popstate', function(){
     modifyView();
-    sessionStorage.setItem('modify', 'true');
+    localStorage.setItem('modify', 'true');
 });
 // 添加history
 (function(history){
@@ -12,15 +12,15 @@ window.addEventListener('popstate', function(){
             history.onpushstate({state: state});
         }
         modifyView();
-        sessionStorage.setItem('modify', 'true');
+        localStorage.setItem('modify', 'true');
         return pushState.apply(history, arguments);
     }
 })(window.history);
 // 页面加载
 $(window).ready(function(){
-    var modify = sessionStorage.getItem('modify');
+    var modify = localStorage.getItem('modify');
     if(modify === 'true') {
-        sessionStorage.setItem('modify', 'false');
+        localStorage.setItem('modify', 'false');
     } else {
         modifyView();
     }
