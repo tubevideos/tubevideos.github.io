@@ -1,8 +1,8 @@
-var isModify = false;
+window.isModify = false;
 // 回退按钮
 window.addEventListener('popstate', function(){
     modifyView();
-    isModify = true;
+    window.isModify = true;
 });
 // 添加history
 (function(history){
@@ -12,14 +12,14 @@ window.addEventListener('popstate', function(){
             history.onpushstate({state: state});
         }
         modifyView();
-        isModify = true;
+        window.isModify = true;
         return pushState.apply(history, arguments);
     }
 })(window.history);
 // 页面加载
 $(window).ready(function(){
-    if(isModify) {
-        isModify = false;
+    if(window.isModify) {
+        window.isModify = false;
     } else {
         modifyView();
     }
