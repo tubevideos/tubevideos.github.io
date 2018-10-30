@@ -1,4 +1,4 @@
-window.addEventListener('navigate', function(){
+window.addEventListener('onStateChange', function(){
 	alert('changeURL')
 });
 
