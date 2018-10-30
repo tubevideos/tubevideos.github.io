@@ -6,7 +6,7 @@
         if (typeof history.onpushstate == "function") {
             history.onpushstate({state: state});
         }
-        alert('123');
+        $('.O-j-gb>.A8AIPb>.PNF6le').html('Chrome插件网234');
         return pushState.apply(history, arguments);
     }
 })(window.history);
