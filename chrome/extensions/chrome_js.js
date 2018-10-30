@@ -12,7 +12,7 @@
 })(window.history);
 // 页面加载
 $(window).ready(function(){
-    modifyView();
+    modifyView(window.location.href);
 });
 
 
