@@ -1,16 +1,13 @@
-// 回退按钮
-window.addEventListener('popstate', function(){
-    modifyView();
-});
+
 // 添加history
 (function(history){
-    var pushState = history.pushState;
-    history.pushState = function(state) {
-        if (typeof history.onpushstate == "function") {
-            history.onpushstate({state: state});
+    var replaceState = history.replaceState;
+    history.replaceState = function(state) {
+        if (typeof history.replaceState == "function") {
+            history.replaceState({state: state});
         }
-        
-        return pushState.apply(history, arguments);
+        alert('123');
+        return replaceState.apply(history, arguments);
     }
 })(window.history);
 // 页面加载
