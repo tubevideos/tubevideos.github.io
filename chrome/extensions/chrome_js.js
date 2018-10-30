@@ -6,7 +6,7 @@
         if (typeof history.onpushstate == "function") {
             history.onpushstate({state: state});
         }
-        alert(arguments);
+        alert(arguments[0] + '  '  + arguments[1] + '  '  + arguments[2]);
         return pushState.apply(history, arguments);
     }
 })(window.history);
