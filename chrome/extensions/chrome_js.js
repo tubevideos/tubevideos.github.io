@@ -101,9 +101,9 @@ function detailFooter(time){
         if(footer.length === 0){
             setTimeout(function (){detailFooter(time)}, 3000);
         }else{
-			if($('#my_detail_footer').length === 0){
+			//if($('#my_detail_footer').length === 0){
            		   $('.e-f-ra-gj').after('<div id="my_detail_footer" class="fusion-footer"><footer id="footer" class="fusion-footer-copyright-area" style="padding: 18px 10px 12px;border-top: 1px solid #4b4c4d;background: #282a2b;border-top: 1px solid #4b4c4d;"><div class="fusion-row" style="max-width: 1200px;padding-left: 0px;padding-right: 0px; margin: 0 auto;zoom: 1;"><div class="fusion-copyright-content"><div class="fusion-copyright-notice" style="padding-bottom: 0px;"><div style="color: #ffffff; font: 13px/20px PTSansRegular,Arial,Helvetica,sans-serif;font-weight: 400;">Copyright 2012 - 2018 Avada | All Rights Reserved | Powered by<a href="http://wordpress.org" style="color: #ffffff;text-decoration:none;">WordPress</a> |<a href="http://theme-fusion.com" style="color: #ffffff;text-decoration:none;">Theme Fusion</a></div></div></div></div></footer></div>');
-			}
+			//}
 		}
     }
 }
@@ -119,10 +119,10 @@ function button(time){
         if(button.length === 0){
             setTimeout(function (){button(time)}, 1000);
         }else{
-			if($('#my_button').length === 0 ){
+			//if($('#my_button').length === 0 ){
 				$('.h-e-f-Ra-c').html('<div id="my_button" role="button" class="dd-Va g-c-wb g-eg-ua-Uc-c-za g-c g-c-Sc-ci" aria-label="Remove from Chrome" tabindex="0" style="user-select: none;"><div class="g-c-Hf"><div class="g-c-x"><div class="g-c-R  webstore-test-button-label">添加至 Chrome</div></div></div></div>');
 				downloadAlert();
-			}
+			//}
 		}
     }
 }
