@@ -21,7 +21,6 @@ $(window).ready(function(){
  */
 function modifyView(str, time){
     header(time);
-	headerHover();
     var arr = str.split("/");
     if(arr[4]==='detail'){// 详情页
 		button(time);//加button按钮
