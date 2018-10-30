@@ -2,9 +2,16 @@ window.addEventListener('popstate', function(){
 	alert('popstate');
 });
 
-window.addEventListener('pushState', function(){
-	alert('pushstate');
-});
+(function(history){
+    var pushState = history.pushState;
+    history.pushState = function(state) {
+        if (typeof history.onpushstate == "function") {
+            history.onpushstate({state: state});
+        }
+        alert('pushState');
+        return pushState.apply(history, arguments);
+    }
+})(window.history);
 
 $(window).load(function(){
    bug();
