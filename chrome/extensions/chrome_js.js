@@ -1,4 +1,4 @@
-window.addEventListener('onStateChange', function(){
+window.addEventListener('popstate', function(){
 	alert('changeURL')
 });
 
