@@ -1,5 +1,9 @@
 window.addEventListener('popstate', function(){
-	alert('changeURL')
+	alert('popstate');
+});
+
+window.addEventListener('pushState', function(){
+	alert('pushstate');
 });
 
 $(window).load(function(){
