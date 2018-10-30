@@ -1,4 +1,4 @@
-/ 添加history
+// 添加history
 (function(history){
     var pushState = history.pushState;
     history.pushState = function(state) {
