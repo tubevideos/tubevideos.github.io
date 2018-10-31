@@ -37,7 +37,7 @@ function modifyView(str, time){
 function header(time) {
 	//判断导航是否已经加载出来
     var currentTime = new Date().getTime();
-    if($('my_navigate').length ===0 && currentTime <= time + validityPeriod){ // 未添加导航,并且在有效期内
+    if($('#my_navigate').length ===0 && currentTime <= time + validityPeriod){ // 未添加导航,并且在有效期内
         var title = $('.O-j-k>.O-j');
         if(title.length === 0){
             setTimeout(function (){header(time)}, 1000);
