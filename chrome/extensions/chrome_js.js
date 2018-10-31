@@ -26,12 +26,13 @@ $(window).ready(function(){
  */
 function modifyView(str, time){
     addHeader(time);
+	// 在详情界面虽然侧边菜单不可见，但是HTML仍旧存在
+	modifySidebar(time);
     var arr = str.split("/");
     if(arr[4]==='detail'){// 详情页
         addButton(time);//加button按钮
         addDetailFooter(time);//尾部添加
     } else {
-        modifySidebar(time);//去除dom
         addFooter(time);//尾部添加
     }
 }
