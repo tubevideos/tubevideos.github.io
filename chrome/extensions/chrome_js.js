@@ -1,8 +1,7 @@
 var validityPeriod = 600000; // 有效期，毫秒
 //回退按钮
 window.onpopstate = function(event) {
-	alert(window.location.href);
-	modifyView(document.location.href, new Date().getTime())
+	modifyView(window.location.href, new Date().getTime())
 };
 
 //pushState保存状态进行URL修改
