@@ -51,14 +51,14 @@ function header(time) {
 }
 
 function headerHover(){//为title导航添加鼠标悬乎效果
-		$(".O-j-gb>.A8AIPb>.PNF6lea").hover(
-			function () {
-				$(this).css("color","#1a73e8");
-			},
-			function () {
-				$(this).css("color","#5f6368");
-			}
-		);
+	$(".O-j-gb>.A8AIPb>.PNF6lea").hover(
+		function () {
+			$(this).css("color","#1a73e8");
+		},
+		function () {
+			$(this).css("color","#5f6368");
+		}
+	);
 }
 
 /**
@@ -67,7 +67,7 @@ function headerHover(){//为title导航添加鼠标悬乎效果
 function sidebar(time){
     // 判断sidebar是否已经修改
     var currentTime = new Date().getTime();
-    if($('.HWJfBb>.gpx3nd') === 0 && currentTime <= time + validityPeriod){//未修改,并且在有效期内
+    if($('#my_sidebar').length === 0 && currentTime <= time + validityPeriod){//未修改,并且在有效期内
         var sidebar = $('.F-n-J>.HWJfBb');
         if(sidebar.length === 0){
             setTimeout(function(){sidebar(time)} , 1000)
@@ -75,6 +75,7 @@ function sidebar(time){
             $('.HWJfBb>.gpx3nd').remove();
             $('.HWJfBb>.si3MDf').remove();//下条款
             $('.WrIA6d').next().remove();//下边线
+			sidebar.append('<div id = "my_sidebar"></div>')
         }
     }
 
@@ -86,7 +87,7 @@ function sidebar(time){
 function footer(time){
     // 判断尾部是否已经添加
     var currentTime = new Date().getTime();
-    if($('#my_footer')===0 && currentTime <= time + validityPeriod){// 未添加
+    if($('#my_footer').length ===0 && currentTime <= time + validityPeriod){// 未添加
         var footer = $('.F-ia-k');
         if(footer.length === 0){
             setTimeout(function (){footer(time)},1000);
@@ -103,7 +104,7 @@ function footer(time){
 function detailFooter(time){
     // 判断尾部是否已经添加
     var currentTime = new Date().getTime();
-    if($('#my_detail_footer') ===0 && currentTime <= time + validityPeriod){// 未添加
+    if($('#my_detail_footer').length === 0 && currentTime <= time + validityPeriod){// 未添加
         var footer = $('.e-f-ra-gj');
         if(footer.length === 0){
             setTimeout(function (){detailFooter(time)}, 3000);
@@ -119,7 +120,7 @@ function detailFooter(time){
 function button(time){
     //判断button是否添加
     var currentTime = new Date().getTime();
-    if($('#my_button')===0 && currentTime <= time + validityPeriod) {
+    if($('#my_button').length === 0 && currentTime <= time + validityPeriod) {
         var button = $('.h-e-f-Ra-c');
         if(button.length === 0){
             setTimeout(function (){button(time)}, 1000);
