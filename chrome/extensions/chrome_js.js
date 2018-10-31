@@ -84,7 +84,7 @@ function modifySidebar(time){
             $('.HWJfBb>.gpx3nd').remove();
             $('.HWJfBb>.si3MDf').remove();//下条款
             $('.WrIA6d').next().remove();//下边线
-            sidebar.append('<div id = "my_sidebar"></div>')
+            sidebar.append('<div id="my_sidebar"></div>')
         }
     }
 
